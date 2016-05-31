@@ -1,0 +1,636 @@
+@charset "UTF-8";
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset, img, input, button { 			/*fieldset组合表单中的相关元素*/
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+ul, ol {
+    list-style: none;				/*清除列表风格*/
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "宋体";
+}
+
+select, input {
+    vertical-align: middle;
+}
+
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+/*防止多行文本框拖动*/
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+/*  去掉图片低测默认的3像素空白缝隙*/
+table {
+    border-collapse: collapse;			/*合并外边线*/
+}
+
+
+body {
+    font: 12px/150% Arial, Verdana, "\5b8b\4f53";	/*宋体，Unicode，统一码*/
+    color: #666;
+    background: #fff
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+s, i, em {
+    font-style: normal;
+    text-decoration: none;
+}
+
+.col-red {
+    color: #C81623 !important;
+}
+
+/*公共类*/
+.w {
+    /*版心 提取 */
+    width: 1205px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.al {
+    text-align: left
+}
+
+.ac {
+    text-align: center
+}
+
+.ar {
+    text-align: right
+}
+
+.hide {
+    display: none;
+}
+.cg {
+    color: green;
+}
+
+
+
+
+
+/*火箭返航*/
+.backtop{
+    width: 60px;
+    height: 180px;
+    border: 2px solid #c0c0c0;
+    border-radius: 10px;
+    background-color: #e0e5e2;
+    position: fixed;
+    right: 0px;
+    bottom: 100px;
+    z-index: 4;
+    display: none;
+
+}
+.backtop div{
+    width: 50px;
+    height: 60px;
+    background: url(../images/csside.png) no-repeat;
+    margin: 0 auto;
+}
+.backtop .backtop-top{
+    background-position: 10px 20px;
+}
+.backtop .backtop-middle{
+    border-top:2px solid  #c0c0c0;
+    border-bottom:2px solid  #c0c0c0;
+    background-position: 14px -40px;
+}
+.backtop .backtop-bottom{
+    background-position: 10px -100px;
+}
+
+
+
+
+
+
+/*topNav部分开始~~~~~~*/
+/*topnav部分开始*/
+.nav {
+    height: 60px;
+    width: 100%;
+    background-color: #262626;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    opacity: 0.8;
+}
+
+/*版心*/
+.nav .w {
+    height: 60px;
+}
+
+/*logo开始*/
+.nav-logo {
+    width: 185px;
+    height: 60px;
+    line-height: 60px;
+    float: left;
+}
+
+.nav-logo-l a{
+    color: #fff;
+    font-size: 20px;
+}
+
+.nav-logo-l a img{
+    margin-right: 10px;
+}
+
+.nav-logo-r {
+    float: left;
+    height: 40px;
+    padding: 22px 0 0 16px;
+}
+
+.nav-logo-r li {
+    width: 16px;
+    height: 2px;
+    border-radius: 3px;
+    background: #fff;
+    margin-top: 4px;
+}
+
+.nav-center {
+    width: 438px;
+    height: 60px;
+    line-height: 64px;
+    /*background-color: #19ffd0;*/
+    padding-left: 50px;
+    float: left;
+    overflow: hidden;
+}
+
+.nav-center .nav-list a {
+    padding: 0px 15px;
+    display: block;
+    font-size: 16px;
+    font-family:"Arial", \5fae\8f6f\96c5\9ed1;
+    color: #EEEEEE;
+
+}
+
+.nav-list .flyBox {
+    width: 148px;
+    height: 150px;
+    position: absolute;
+    top: 60px;
+    left: 340px;
+    background-color: #fff;
+    opacity: 1;
+    text-align: center;
+    display: none;
+    border: 1px solid #ddd;
+}
+
+.flyBox img {
+    transform: rotate(180deg);
+    position: absolute;
+    top: -10px;;
+    left: 65px;
+}
+
+.flyBox li {
+    height: 49px;
+    width: 130px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    padding: 0 9px;
+}
+.flyBox li:last-child {
+    border-bottom: none;
+}
+.nav-list .flyBox  a {
+    font: 400 16px/49px "Arial", \5fae\8f6f\96c5\9ed1;
+    color: #000;
+}
+
+.flyBox li:hover a {
+    color: skyblue;
+}
+
+.flyBox li:hover {
+    background-color: #ccc;
+}
+
+.nav-center .nav-list a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.nav-center li {
+    float: left;
+}
+
+.nav-right {
+    width: 396px;
+    height: 60px;
+    /*background-color: #ff4b72;*/
+    float: left;
+    padding-left: 135px;
+}
+
+.nav-right-left {
+    width: 160px;
+    height: 28px;
+    margin-top: 17px;
+    float: left;
+    position: relative;
+}
+
+.nav-right-left label {
+    color: #7b807d;
+    position: absolute;
+    top: 5px;
+    left: 30px;
+}
+
+.nav-right-left input {
+    width: 130px;
+    height: 28px;
+    background: #5C5F68 url("../images/cssearch1.png") no-repeat 10px center;
+    padding-left: 30px;
+}
+
+.nav-right-right {
+    width: 130px;
+    height: 60px;
+    line-height: 60px;
+    /*background-color: #5dff0f;*/
+    /*padding-right: 105px;*/
+    float: right;
+
+}
+
+.nav-right-right a {
+    margin-left: 10px;
+    font-size: 14px;
+    font-family: "Arial", \5fae\8f6f\96c5\9ed1;
+    color: #FFFFEC;
+}
+
+/*topNav部分结束~~~~~~*/
+
+
+/*登陆框开始~~~~~~~~*/
+.mask {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.3);
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.show .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: #fff;
+}
+.show {
+    width: 500px;
+    height: 375px;
+    background-color: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: -187px;
+    text-align: center;
+    z-index: 1001;
+}
+.login-main,.login-left{
+    width: 295px;
+}
+.show .inpBox {
+    border: 1px solid #dfdfdf;
+    background: #f1f1f1;
+    width: 293px;
+    position: relative;
+}
+.inpBox input {
+    height: 20px;
+    width: 281px;
+    padding: 10px 5px 13px;
+    line-height: 20px;
+    border: 2px solid #f1f1f1;
+    border-width: 2px 0 0 2px;
+    background: #fafafa;
+    font-size: 16px;
+    vertical-align: middle;
+    margin: 0px;
+}
+.inpBox label {
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    color: #ccc;
+    cursor: text;
+    font-family: "Arial", \5fae\8f6f\96c5\9ed1;
+    font-size: 16px;
+}
+
+.login-main .item {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.login-main .login-btn {
+    margin-top: 20px;
+    width: 300px;
+    height: 50px;
+    border: none;
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    text-indent: -99999999px;
+    background: url("../images/login.jpg")  no-repeat;
+}
+
+.split {
+    margin: 20px 0 0 60px;
+    height: 220px;
+    border-left: 1px solid #e7e7e7;
+    position: relative;
+}
+.or {
+    position: absolute;
+    top: 98px;
+    left: -12px;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    background: #fff;
+    z-index: 10;
+    color: #aaa;
+}
+.login-quick {
+    width: 100px;
+    margin-top: 50px;
+    padding: 6px 0 0px 30px;
+}
+.login-quick a {
+    display: block;
+    margin-top: 10px;
+    width: 90px;
+    height: 25px;
+    background: url("../images/snsSprite.png") no-repeat ;
+}
+.login-quick .quick1 {
+    background: url("../images/quick1.png") no-repeat;
+}
+.login-quick .quick2 {
+    background-position: -10px -13px;
+}
+.login-quick .quick3 {
+    background-position: -112px -13px;
+}
+.login-quick .quick4 {
+    background-position: -215px -13px;
+}
+/*登陆框结束~~~~~~~~*/
+
+
+
+/*footer部分开始*/
+.footer {
+    margin-top: 110px;
+    height: 298px;
+    background-color: #474443;
+}
+
+/*footer版心部分*/
+.footer .w {
+    height: 298px;
+    /*background-color: #0fa5ff;*/
+
+}
+
+/*foooter版心左*/
+.footer-left {
+    width: 430px;
+    height: 298px;
+    float: left;
+    position: relative;
+    /*background-color: #5dff0f;*/
+}
+
+.footer-left img {
+    margin-top: 50px;
+}
+
+.footer-left .footer-logo {
+    font: 600 30px/150% "Arial", \5fae\8f6f\96c5\9ed1;
+    color: white;
+    position: absolute;
+    top: 40px;
+    left: 75px;
+}
+
+.footer-left-wy p {
+    height: 120px;
+    width: 423px;
+    font-size: 12px;
+    /*background-color: #19ffd0;*/
+
+
+}
+
+.footer-left-wy {
+    margin-top: 25px;
+    color: #EEEEEE;
+}
+
+.footer-left-wz {
+    height: 16px;
+    width: 430px;
+    /*background-color: #ff4b72;*/
+    margin-top: 40px;
+}
+.footer-left-gz{
+    float: left;
+    color: #FFFFFF;
+}
+.footer-left-wz ul{
+    float: left;
+}
+.footer-left-wz li {
+    float: left;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    background: url("../images/csshare.png") no-repeat;
+    margin-left: 8px;
+}
+.footer-left-wz .footer-link1 {
+    background-position: -35px -53px;
+}
+.footer-left-wz .footer-link2 {
+    background-position: -35px -73px;
+}
+.footer-left-wz .footer-link3{
+    background-position:-8px -53px ;
+    position: relative;
+}
+.footer-left-wz .footer-link4{
+    background-position:-8px -73px ;
+    position: relative;
+}
+/*微信扫码*/
+.erweima-W {
+    display: none;
+    width: 120px;
+    height: 150px;
+    position: absolute;
+    bottom: 30px;
+    left: -63px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+.yi-img {
+    width:120px;
+    height:127px;
+}
+.yi-img img {
+    width:120px;
+    height:120px;
+    margin-top: 0px;
+}
+.yi-img p {
+    font:400 14px/35px "microsoft yahei";
+    color: #999;
+}
+.footer-arr {
+    width: 14px;
+    height: 10px;
+    position: absolute;
+    right: 62px;
+    bottom: -9px;
+    background: url("../images/footer-erweima-pic.png") no-repeat;
+}
+.footer-left-wz-copy{
+    margin-top: 20px;
+    color: #999999;
+}
+.footer-left-wz-copy span {
+    width: 421px;
+    height: 9px;
+    /*background-color: #130aff;*/
+}
+.footer-right{
+
+    width: 475px;
+    height: 65px;
+    /*background-color: #5dff0f;*/
+    float: right;
+    margin-top: 118px;
+}
+.footer-right ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.footer-right a{
+    color: #DDDDDD;
+}
+.footer-right-icon{
+    margin: 20px 0 0 10px;
+    margin-left: 60px;
+}
+.footer-right-icon span{
+    font-size: 14px;
+    color: #DDDDDD;
+    float: left;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+.footer-right-icon li{
+    float: left;
+    width:150px;
+    height: 44px;
+    background: url("../images/cssearch.png") no-repeat;
+    cursor: pointer;
+}
+/*footer版心左logo部分*/
+.footer-right-icon .footer-right-icon1-img1{
+    background-position: 0px -28px;
+}
+.footer-right-icon .footer-right-icon1-img2{
+    background-position: 0px -76px;
+}
+
+/*footer部分结束*/
+
+
+
+
+
+
+
+
+
+
+
+

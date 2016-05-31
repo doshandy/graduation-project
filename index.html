@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+</head>
+<body>
+<!--返回顶部-->
+<div class="backtop">
+    <div class="backtop-top"></div>
+    <div class="backtop-middle"></div>
+    <div class="backtop-bottom"></div>
+
+</div>
+
+<!--返回顶部-->
+
+<!--登陆模态框开始-->
+<div class="mask">
+    <div class="show">
+        <span class="close">×</span>
+        <img src="images/gameFeeling.jpg"/>
+        <div class="login-main fl">
+            <div class="inpBox item item1">
+                <label for="uid">常用邮箱/手机号</label>
+                <input type="text" id="uid"/>
+            </div>
+            <div class="inpBox item item2">
+                <label for="pwd">密码</label>
+                <input type="password" id="pwd"/>
+            </div>
+            <div class="login-left item clearfix">
+                <div class="fl">
+                    <input type="checkbox" id="auto"/>
+                    <label for="auto">自动登录</label>
+                </div>
+                <a href="javascript:;" class="fr cg" id="forget">忘记密码？</a>
+            </div>
+            <input type="submit" class="login-btn item"/>
+            <div class="reg item al">
+                <a href="注册.html" target="_blank">没有账号？<span class="cg">立即注册</span></a>
+            </div>
+        </div>
+        <div class="split fl">
+            <div class="or">或</div>
+        </div>
+        <div class="login-quick fl">
+            <a href="javascript:;" class="quick1"></a>
+            <a href="javascript:;" class="quick2"></a>
+            <a href="javascript:;" class="quick3"></a>
+            <a href="javascript:;" class="quick4"></a>
+        </div>
+    </div>
+</div>
+<!--登陆模态框开始-->
+
+
+<!--topnav部分~~~start~~~~~-->
+<div class="nav">
+    <!--版心部分-->
+    <div class="w">
+        <!--logo部分-->
+        <div class="nav-logo">
+            <!--logo左-->
+            <div class="nav-logo-l fl">
+                <a href="#"><img src="images/newlogo.jpg" title="gameLoft"/>GameLoft</a>
+            </div>
+            <div class="nav-logo-r">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+        <!--首页部分开始-->
+        <div class="nav-center">
+            <ul class="nav-list">
+                <li><a href="index.html" target="_self">首页</a></li>
+                <li>
+                    <a href="javascript:;">游戏分类</a>
+                    <div class="flyBox">
+                        <img src="images/footer-erweima-pic.png" alt=""/>
+                        <ul>
+                            <li><a href="javascript:;">单机游戏</a></li>
+                            <li><a href="javascript:;">网络游戏</a></li>
+                            <li><a href="javascript:;">手机游戏</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#hot">热门导航</a></li>
+                <li><a href="javascript:;">个人中心</a></li>
+                <li><a href="waterFall.html" target="_blank">图片赏析</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="nav-right-left">
+                <label for="inp">搜索</label>
+                <input type="text" id="inp"/>
+            </div>
+            <div class="nav-right-right">
+                <a href="#" id="login">登陆</a>
+                <a href="注册.html" target="_blank">注册</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--topnav部分~~~end~~~~~-->
+
+<!--top部分开始~~~~~~~~~-->
+
+<div class="top">
+    <div class="top-top w">
+        <div class="tit">GameLoft</div>
+        <div class="des">
+            游戏（yoc）是幻想与现实之间的桥梁。GameLoft，是梦想与现实之间的桥梁
+            <br/>
+            在这里，你可以找到所有你想要的一切。GameLoft，为电竞而生
+        </div>
+        <a href="javascript:;" id="check">查看所有游戏分类</a>
+    </div>
+    <div class="top-bottom">
+        <div class="t-b-content">
+            <div class="part1">
+                <div class="icon part1-icon"></div>
+                <div class="titFont part1-tit">专为忙碌的你</div>
+                <div class="desFont part1-des">
+                    分类精确，条理清晰
+                    <br/>
+                    高效查找所有攻略。
+                </div>
+            </div>
+            <div class="part2">
+                <div class="icon part2-icon"></div>
+                <div class="titFont part2-tit">既动脑又动手</div>
+                <div class="desFont part2-des">
+                    从理论到实际副本操作，
+                    <br/>
+                    技术过关且过硬。
+                </div>
+            </div>
+            <div class="part3">
+                <div class="icon part3-icon"></div>
+                <div class="titFont part3-tit">无忧引导与支持</div>
+                <div class="desFont part3-des">
+                    高手伙伴全程跟随陪练，
+                    <br/>
+                    通关再无难题。
+                </div>
+            </div>
+            <div class="part4">
+                <div class="icon part4-icon"></div>
+                <div class="titFont part4-tit">专业攻略提供</div>
+                <div class="desFont part4-des">
+                    全网大神最快更新，
+                    <br/>
+                    副本不再困难重重。
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!--top部分结束-->
+
+<div class="word-tit" id="hot">
+    部分热门游戏推荐
+</div>
+
+<!--旋转木马轮播图-->
+<div class="wrap" id="wrap">
+    <div class="slide" id="slide">
+        <ul>
+            <li><a href="COD.html" target="_blank"><img src="images/fstCOD.jpg"/></a></li>
+            <li><a href="LOL.html" target="_blank"><img src="images/fstLOL.jpg"/></a></li>
+            <li><a href="PAL.html" target="_blank"><img src="images/fstPAL.jpg"/></a></li>
+            <li><a href="WAR.html" target="_blank"><img src="images/fstWAR.jpg"/></a></li>
+            <li><a href="NFS.html" target="_blank"><img src="images/fstNFS.jpg"/></a></li>
+        </ul>
+        <div class="arrow" id="arrow">
+            <a href="javascript:;" class="prev" id="arrLeft"></a>
+            <a href="javascript:;" class="next" id="arrRight"></a>
+        </div>
+    </div>
+</div>
+<!--旋转木马轮播图结束-->
+
+<!--table部分开始~~~~~    -->
+<div class="main-table w" id="main-table">
+    <div class="word-tit">所有游戏分类说明</div>
+    <table class="table-main">
+        <tbody>
+        <tr>
+            <td>
+                <a href="javascript:;">
+                    <div class="td-name">Role-playing Game</div>
+                    <div class="td-icon"><img src="images/t1.jpg"/></div>
+                    <div class="td-org">RPG</div>
+                    <div class="td-des">
+                        <p class="cnt">由玩家扮演游戏中的一个或数个角色，有完整的故事情节的游戏。玩家可能会与冒险类游戏混淆，其实区分很简单，RPG游戏更强调的是剧情发展和个人体验。</p>
+                        <p class="more">角色扮演游戏</p>
+                    </div>
+                </a>
+            </td>
+            <td>
+                <a href="javascript:;">
+                    <div class="td-name">Action Game</div>
+                    <div class="td-icon"><img src="images/t2.jpg"/></div>
+                    <div class="td-org">ACT</div>
+                    <div class="td-des">
+                        <p class="cnt">玩家控制游戏人物用各种方式消灭敌人或保存自己以过关的游戏，不刻意追求故事情节，设计主旨是面向普通玩家，以纯粹的娱乐休闲为目的</p>
+                        <p class="more">动作游戏</p>
+                    </div>
+                </a>
+            </td>
+            <td>
+                <a href="javascript:;">
+                    <div class="td-name">Adventure Game</div>
+                    <div class="td-icon"><img src="images/t3.jpg"/></div>
+                    <div class="td-org">AVG</div>
+                    <div class="td-des">
+                        <p class="cnt">由玩家控制游戏人物进行虚拟冒险的游戏。与RPG不同的是，AVG的特色是故事情节往往是以完成一个任务或解开某些迷题的形式来展开的，而且在游戏过程中着意强调谜题的重要性。</p>
+                        <p class="more">冒险游戏</p>
+                    </div>
+                </a>
+            </td>
+            <td>
+                <a href="javascript:;">
+                    <div class="td-name">First Personal Shooting Game</div>
+                    <div class="td-icon"><img src="images/t4.jpg"/></div>
+                    <div class="td-org">FPS</div>
+                    <div class="td-des">
+                        <p class="cnt">FPS游戏在诞生的时候，因3D技术的不成熟，无法展现出它的独特魅力，就是给予玩家及其强烈的代入感。随着3D技术的不断发展，FPS也向着更逼真的画面效果不断前进。</p>
+                        <p class="more">第一人称视角射击游戏</p>
+                    </div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="javascript:;">
+                    <div class="td-name">Third Personal Shooting Game</div>
+                    <div class="td-icon"><img src="images/t5.jpg"/></div>
+                    <div class="td-org">TPS</div>
+                    <div class="td-des">
+                        <p class="cnt">第三人称射击游戏中主角在游戏屏幕上是可见的。这样可以更直观的看到角色的动作、服装等第一人类游戏中表现不出来的部分，更有利于观察角色的受伤情况和周围事物，以及弹道。</p>
+                        <p class="more">第三人称射击类游戏</p>
+                    </div>
+                </a>
+            </td>
+            <td>
+                <a href="javascript:;">
+                    <div class="td-name">Fighting Game</div>
+                    <div class="td-icon"><img src="images/t6.jpg"/></div>
+                    <div class="td-org">FTG</div>
+                    <div class="td-des">
+                        <p class="cnt">由玩家操纵各种角色与电脑或另一玩家所控制的角色进行格斗的游戏，游戏节奏很快，耐玩度非常高。按呈画技术可再分为2D和3D两种，此类游戏谈不上什么剧情，最多有个简单的场景设定或背景展示</p>
+                        <p class="more">格斗游戏</p>
+                    </div>
+                </a>
+            </td>
+            <td>
+                <a href="javascript:;">
+                    <div class="td-name">Sports Game</div>
+                    <div class="td-icon"><img src="images/t7.jpg"/></div>
+                    <div class="td-org">SPT</div>
+                    <div class="td-des">
+                        <p class="cnt">在电脑上模拟各类竞技体育运动的游戏，花样繁多，模拟度高，广受欢迎。</p>
+                        <p class="more">体育类游戏</p>
+                    </div>
+                </a>
+            </td>
+            <td>
+                <a href="javascript:;">
+                    <div class="td-name">Racing Game</div>
+                    <div class="td-icon"><img src="images/t8.jpg"/></div>
+                    <div class="td-org">RAC</div>
+                    <div class="td-des">
+                        <p class="cnt">在电脑上模拟各类赛车运动的游戏，通常是在比赛场景下进行，非常讲究图像音效技术，往往是代表电脑游戏的尖端技术。惊险刺激，真实感强，深受车迷喜爱。另一种说法称之为"Driving Game"。</p>
+                        <p class="more">竞速游戏</p>
+                    </div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="javascript:;">
+                    <div class="td-name">Real-Time Strategy Game</div>
+                    <div class="td-icon"><img src="images/t9.jpg"/></div>
+                    <div class="td-org">RTS</div>
+                    <div class="td-des">
+                        <p class="cnt">本来属于策略游戏SLG的一个分支，但由于其在世界上的迅速风靡，使之慢慢发展成了一个单独的类型，知名度甚至超过了SLG，有点象国际足联和国际奥委会的关系。</p>
+                        <p class="more">即时战略游戏</p>
+                    </div>
+                </a>
+            </td>
+            <td>
+                <a href="javascript:;">
+                    <div class="td-name">SHOTING GAME</div>
+                    <div class="td-icon"><img src="images/t10.jpg"/></div>
+                    <div class="td-org">STG</div>
+                    <div class="td-des">
+                        <p class="cnt">这里所说的射击类，并非是类似《VR战警》的模拟射击，而是指纯粹的飞机射击，或者在敌方的枪林弹雨中生存下来，一般由玩家控制各种飞行物完成任务或过关的游戏。</p>
+                        <p class="more">射击类游戏</p>
+                    </div>
+                </a>
+            </td>
+            <td>
+                <a href="javascript:;">
+                    <div class="td-name">Simulation Game</div>
+                    <div class="td-icon"><img src="images/t11.jpg"/></div>
+                    <div class="td-org">SLG</div>
+                    <div class="td-des">
+                        <p class="cnt">SLG是指玩家运用策略与电脑或其它玩家较量，以取得各种形式胜利的游戏，或统一全国，或开拓外星殖民地。SLG的4E准则为：探索、扩张、开发和消灭</p>
+                        <p class="more">策略游戏</p>
+                    </div>
+                </a>
+            </td>
+            <td>
+                <a href="javascript:;">
+                    <div class="td-name">Music Game</div>
+                    <div class="td-icon"><img src="images/t12.jpg"/></div>
+                    <div class="td-org">MSC</div>
+                    <div class="td-des">
+                        <p class="cnt">培养玩家音乐敏感性，增强音乐感知的游戏。伴随美妙的音乐，有的要求玩家翩翩起舞，有的要求玩家手指体操，例如大家都熟悉的跳舞机</p>
+                        <p class="more">音乐游戏</p>
+                    </div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="javascript:;">
+                    <div class="td-name">Simulation Game</div>
+                    <div class="td-icon"><img src="images/t13.jpg"/></div>
+                    <div class="td-org">SIM</div>
+                    <div class="td-des">
+                        <p class="cnt">此类游戏高度模拟现实，能自由构建游戏中人与人之间的关系，并如现实中一样进行人际交往，且还可联网与众多玩家一起游戏，如《模拟人生》。</p>
+                        <p class="more">生活模拟游戏</p>
+                    </div>
+                </a>
+            </td>
+            <td>
+                <a href="javascript:;">
+                    <div class="td-name">Card Game</div>
+                    <div class="td-icon"><img src="images/t14.jpg"/></div>
+                    <div class="td-org">CAG</div>
+                    <div class="td-des">
+                        <p class="cnt">玩家操纵角色通过卡片战斗模式来进行的游戏。丰富的卡片种类使得游戏富于多变化性，给玩家无限的乐趣。</p>
+                        <p class="more">卡片游戏</p>
+                    </div>
+                </a>
+            </td>
+            <td>
+                <a href="javascript:;">
+                    <div class="td-name">Love Game</div>
+                    <div class="td-icon"><img src="images/t15.jpg"/></div>
+                    <div class="td-org">LVG</div>
+                    <div class="td-des">
+                        <p class="cnt">玩家回到初恋的年代，回味感人的点点滴滴，模拟恋爱的游戏。恋爱不是游戏，但偏偏有恋爱游戏，恋爱类游戏主要是为男性玩家服务的，也有个别女性向的。可以训练追求的技术，学会忍耐</p>
+                        <p class="more">恋爱游戏</p>
+                    </div>
+                </a>
+            </td>
+            <td>
+                <a href="javascript:;">
+                    <div class="td-name">Girl And Love GAME</div>
+                    <div class="td-icon"><img src="images/t16.jpg"/></div>
+                    <div class="td-org">GAL</div>
+                    <div class="td-des">
+                        <p class="cnt">GALGAME是一类走极端的游戏，它几乎放弃了所有游戏性，而仅以剧情取胜，是以其在人物塑造、情节张力方面有着它类游戏所无可企及的高度，如《AIR》、《Fate/stay night》、《School Days》等。</p>
+                        <p class="more">美少女游戏</p>
+                    </div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="javascript:;">
+                    <div class="td-name">Wap Game</div>
+                    <div class="td-icon"><img src="images/t17.png"/></div>
+                    <div class="td-org">WAG</div>
+                    <div class="td-des">
+                        <p class="cnt">手机上的游戏。游戏随处可以玩，连手机也必带休闲游戏，网民最喜欢手机游戏的种类，益智类比率最高，其次依次为动作类、战略类、模拟类、射击类。</p>
+                        <p class="more">手机游戏</p>
+                    </div>
+                </a>
+            </td>
+            <td>
+                <a href="javascript:;">
+                    <div class="td-name">Action Role-playing Game</div>
+                    <div class="td-icon"><img src="images/t18.jpg"/></div>
+                    <div class="td-org">ARPG</div>
+                    <div class="td-des">
+                        <p class="cnt">所谓ARPG 即从英文Action Role Playing Game 中翻译而来。中文含义为“动作角色扮演类游戏”。ARPG代表作为:《暗黑破坏神》系列 </p>
+                        <p class="more">动作角色扮演类游戏</p>
+                    </div>
+                </a>
+            </td>
+            <td>
+                <a href="javascript:;">
+                    <div class="td-name">etc. Game</div>
+                    <div class="td-icon"><img src="images/t19.jpg"/></div>
+                    <div class="td-org">ETC</div>
+                    <div class="td-des">
+                        <p class="cnt">指玩家互动内容较少，或作品类型不明了的游戏类型。常见于种类丰富的家用机游戏，如音乐小说《恐怖惊魂夜》系列等。还有某些游戏的周边设定集</p>
+                        <p class="more">其他类游戏</p>
+                    </div>
+                </a>
+            </td>
+            <td>
+                <a href="javascript:;">
+                    <div class="td-name">动漫游戏</div>
+                    <div class="td-icon"><img src="images/t20.jpg"/></div>
+                    <div class="td-org">game</div>
+                    <div class="td-des">
+                        <p class="cnt">以同名动漫为原型而制作的游戏，但也有一些动漫游戏纯粹的以动漫人物与类似动漫的情节为主板；其中以同名动漫为原型而改编的游戏可能占得比例多些</p>
+                        <p class="more">动漫游戏</p>
+                    </div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="javascript:;">
+                    <div class="td-name">Multiplayer online battle arena</div>
+                    <div class="td-icon"><img src="images/t21.jpg"/></div>
+                    <div class="td-org">MOBA</div>
+                    <div class="td-des">
+                        <p class="cnt">是视频游戏（Video Game）——即时战略游戏（RTS）的一个子类。在这类游戏中，在战斗中一般需要购买装备，玩家通常被分为两队，两队在分散的游戏地图中互相竞争，每个玩家都通过一个RTS风格的界面控制所选的角色。</p>
+                        <p class="more">多人在线战术竞技游戏</p>
+                    </div>
+                </a>
+            </td>
+            <td>
+                <a href="javascript:;">
+                    <div class="td-name">Trading Card Game</div>
+                    <div class="td-icon"><img src="images/t22.jpg"/></div>
+                    <div class="td-org">TCG</div>
+                    <div class="td-des">
+                        <p class="cnt">以前GB系列泛用，一般大家都用 EDU（Education）来指代该类游戏，以便于和“Trading Card Game”区分开。 顾名思义，就是玩家模拟培养的游戏</p>
+                        <p class="more">育成游戏</p>
+                    </div>
+                </a>
+            </td>
+            <td colspan="2">
+                <div class="name2">更多分类正在制作敬请期待</div>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<!--table部分结束~~~~~    -->
+
+
+
+<div class="word-tit">
+    热门游戏排行，为您的挑选提供方向
+</div>
+
+
+<!--热门排行开始~~~~~~~~~~-->
+<div class="Mid">
+    <div class="total">
+        <div class="total-l">
+            <div class="totalTit">热游排行榜</div>
+            <ul class="PH RY">
+                <li class="tit">
+                    <div class="t1">排名</div>
+                    <div class="t2">游戏名称</div>
+                    <div class="t3">上市</div>
+                    <div class="t4">类型</div>
+                    <div class="t5">热度</div>
+                </li>
+                <li class="con">
+                    <div class="t1 c2">1</div>
+                    <div class="t2"><a target="_blank" href="http://www.gamersky.com/z/darksouls3/">黑暗之魂3</a></div>
+                    <div class="t3">04-12</div>
+                    <div class="t4">ARPG</div>
+                    <div class="t5">60025</div>
+                </li>
+                <li class="con">
+                    <div class="t1 c2">2</div>
+                    <div class="t2"><a target="_blank" href="http://www.gamersky.com/z/thebannersaga2/">旗帜的传说2</a></div>
+                    <div class="t3">04-20</div>
+                    <div class="t4">SLG</div>
+                    <div class="t5">22075</div>
+                </li>
+                <li class="con">
+                    <div class="t1 c2">3</div>
+                    <div class="t2"><a target="_blank" href="http://www.gamersky.com/z/danganronpa2/">超级弹丸论破2</a></div>
+                    <div class="t3">04-19</div>
+                    <div class="t4">AVG</div>
+                    <div class="t5">17795</div>
+                </li>
+                <li class="con">
+                    <div class="t1 c2">4</div>
+                    <div class="t2"><a target="_blank" href="http://www.gamersky.com/z/sangokushi13/">三国志13</a></div>
+                    <div class="t3">01-28</div>
+                    <div class="t4">SLG</div>
+                    <div class="t5">16122</div>
+                </li>
+                <li class="con">
+                    <div class="t1 c2">5</div>
+                    <div class="t2"><a target="_blank" href="http://www.gamersky.com/z/dontstarve/">饥荒</a></div>
+                    <div class="t3">04-23</div>
+                    <div class="t4">AVG</div>
+                    <div class="t5">15965</div>
+                </li>
+                <li class="con">
+                    <div class="t1">6</div>
+                    <div class="t2"><a target="_blank" href="http://www.gamersky.com/z/tes5/">上古卷轴5：天际</a></div>
+                    <div class="t3">11-11</div>
+                    <div class="t4">RPG</div>
+                    <div class="t5">13378</div>
+                </li>
+                <li class="con">
+                    <div class="t1">7</div>
+                    <div class="t2"><a target="_blank" href="http://www.gamersky.com/z/quantumbreak/">量子破碎</a></div>
+                    <div class="t3">04-05</div>
+                    <div class="t4">TPS</div>
+                    <div class="t5">12933</div>
+                </li>
+                <li class="con">
+                    <div class="t1">8</div>
+                    <div class="t2"><a target="_blank" href="http://www.gamersky.com/z/thedivision/">全境封锁</a></div>
+                    <div class="t3">03-08</div>
+                    <div class="t4">TPS</div>
+                    <div class="t5">12674</div>
+                </li>
+                <li class="con">
+                    <div class="t1">9</div>
+                    <div class="t2"><a target="_blank" href="http://www.gamersky.com/z/thewitcher3/">巫师3：狂猎</a></div>
+                    <div class="t3">05-19</div>
+                    <div class="t4">ARPG</div>
+                    <div class="t5">11660</div>
+                </li>
+                <li class="con">
+                    <div class="t1">10</div>
+                    <div class="t2"><a target="_blank" href="http://www.gamersky.com/z/riseofthetombraider/">古墓丽影：崛起</a></div>
+                    <div class="t3">01-28</div>
+                    <div class="t4">ACT</div>
+                    <div class="t5">10164</div>
+                </li>
+                <li class="con">
+                    <div class="t1">11</div>
+                    <div class="t2"><a target="_blank" href="http://www.gamersky.com/z/narutoninjastorm4/">火影：究极风暴4</a></div>
+                    <div class="t3">02-05</div>
+                    <div class="t4">FTG</div>
+                    <div class="t5">9806</div>
+                </li>
+                <li class="con">
+                    <div class="t1">12</div>
+                    <div class="t2"><a target="_blank" href="http://www.gamersky.com/z/mgs5pp/">合金装备5：幻痛</a></div>
+                    <div class="t3">09-01</div>
+                    <div class="t4">ACT</div>
+                    <div class="t5">9466</div>
+                </li>
+                <li class="con">
+                    <div class="t1">13</div>
+                    <div class="t2"><a target="_blank" href="http://www.gamersky.com/z/z357/">真三国无双7</a></div>
+                    <div class="t3">07-19</div>
+                    <div class="t4">ACT</div>
+                    <div class="t5">9443</div>
+                </li>
+                <li class="con">
+                    <div class="t1">14</div>
+                    <div class="t2"><a target="_blank" href="http://www.gamersky.com/z/egttr/">万众狂欢</a></div>
+                    <div class="t3">04-15</div>
+                    <div class="t4">AVG</div>
+                    <div class="t5">8297</div>
+                </li>
+                <li class="con">
+                    <div class="t1">15</div>
+                    <div class="t2"><a target="_blank" href="http://www.gamersky.com/z/nfs19/">极品飞车19</a></div>
+                    <div class="t3">03-15</div>
+                    <div class="t4">RAC</div>
+                    <div class="t5">8149</div>
+                </li>
+                <li class="con">
+                    <div class="t1">16</div>
+                    <div class="t2"><a target="_blank" href="http://www.gamersky.com/z/fallout4/">辐射4</a></div>
+                    <div class="t3">11-10</div>
+                    <div class="t4">RPG</div>
+                    <div class="t5">7951</div>
+                </li>
+                <li class="con">
+                    <div class="t1">17</div>
+                    <div class="t2"><a target="_blank" href="http://www.gamersky.com/z/ark/">方舟：生存进化</a></div>
+                    <div class="t3">06-02</div>
+                    <div class="t4">ARPG</div>
+                    <div class="t5">7941</div>
+                </li>
+                <li class="con">
+                    <div class="t1">18</div>
+                    <div class="t2"><a target="_blank" href="http://www.gamersky.com/z/lcqxz/">洛川群侠传</a></div>
+                    <div class="t3">03-25</div>
+                    <div class="t4">RPG</div>
+                    <div class="t5">7379</div>
+                </li>
+                <li class="con">
+                    <div class="t1">19</div>
+                    <div class="t2"><a target="_blank" href="http://www.gamersky.com/z/nfs18/">极品飞车18：宿敌</a></div>
+                    <div class="t3">11-19</div>
+                    <div class="t4">RAC</div>
+                    <div class="t5">7336</div>
+                </li>
+                <li class="con">
+                    <div class="t1">20</div>
+                    <div class="t2"><a target="_blank" href="http://www.gamersky.com/z/watchdogs/">看门狗</a></div>
+                    <div class="t3">05-27</div>
+                    <div class="t4">ACT</div>
+                    <div class="t5">7186</div>
+                </li>
+            </ul>
+        </div>
+        <div class="total-l">
+            <div class="totalTit">新游期待榜</div>
+            <ul class="PH XY">
+                <li class="tit">
+                    <div class="t1">排名</div>
+                    <div class="t2">游戏名称</div>
+                    <div class="t3">上市</div>
+                    <div class="t4">类型</div>
+                    <div class="t5">期待度</div>
+                </li>
+                <li class="con">
+                    <div class="t1 c1">1</div>
+                    <div class="t2"><a target="_blank" href="http://www.gamersky.com/z/re7/">生化危机7</a></div>
+                    <div class="t3">未知</div>
+                    <div class="t4">ACT</div>
+                    <div class="t5">25155</div>
+                </li>
+                <li class="con">
+                    <div class="t1 c1">2</div>
+                    <div class="t2"><a target="_blank" href="http://www.gamersky.com/z/mb2/">骑马与砍杀2：领主</a></div>
+                    <div class="t3">未知</div>
+                    <div class="t4">ARPG</div>
+                    <div class="t5">19005</div>
+                </li>
+                <li class="con">
+                    <div class="t1 c1">3</div>
+                    <div class="t2"><a target="_blank" href="http://www.gamersky.com/z/z358/">真三国无双8</a></div>
+                    <div class="t3">未知</div>
+                    <div class="t4">ACT</div>
+                    <div class="t5">18968</div>
+                </li>
+                <li class="con">
+                    <div class="t1 c1">4</div>
+                    <div class="t2"><a target="_blank" href="http://ow.gamersky.com/">守望先锋</a></div>
+                    <div class="t3">05-24</div>
+                    <div class="t4">FPS</div>
+                    <div class="t5">17174</div>
+                </li>
+                <li class="con">
+                    <div class="t1 c1">5</div>
+                    <div class="t2"><a target="_blank" href="http://www.gamersky.com/z/uncharted4/">神秘海域4</a></div>
+                    <div class="t3">05-10</div>
+                    <div class="t4">ACT</div>
+                    <div class="t5">12243</div>
+                </li>
+                <li class="con">
+                    <div class="t1">6</div>
+                    <div class="t2"><a target="_blank" href="http://www.gamersky.com/z/gta6/">GTA6</a></div>
+                    <div class="t3">未知</div>
+                    <div class="t4">ACT</div>
+                    <div class="t5">12201</div>
+                </li>
+                <li class="con">
+                    <div class="t1">7</div>
+                    <div class="t2"><a target="_blank" href="http://www.gamersky.com/z/ff15/">最终幻想15</a></div>
+                    <div class="t3">09-30</div>
+                    <div class="t4">RPG</div>
+                    <div class="t5">11000</div>
+                </li>
+                <li class="con">
+                    <div class="t1">8</div>
+                    <div class="t2"><a target="_blank" href="http://www.gamersky.com/z/darksiders3/">暗黑血统3</a></div>
+                    <div class="t3">未知</div>
+                    <div class="t4">ACT</div>
+                    <div class="t5">10193</div>
+                </li>
+                <li class="con">
+                    <div class="t1">9</div>
+                    <div class="t2"><a target="_blank" href="http://www.gamersky.com/z/tes6/">上古卷轴6</a></div>
+                    <div class="t3">未知</div>
+                    <div class="t4">RPG</div>
+                    <div class="t5">9265</div>
+                </li>
+                <li class="con">
+                    <div class="t1">10</div>
+                    <div class="t2"><a target="_blank" href="http://www.gamersky.com/z/jxqyxylz/">剑侠情缘之谢云流传</a></div>
+                    <div class="t3">未知</div>
+                    <div class="t4">RPG</div>
+                    <div class="t5">7877</div>
+                </li>
+                <li class="con">
+                    <div class="t1">11</div>
+                    <div class="t2"><a target="_blank" href="http://www.gamersky.com/z/l4d3/">求生之路3</a></div>
+                    <div class="t3">未知</div>
+                    <div class="t4">FPS</div>
+                    <div class="t5">7163</div>
+                </li>
+                <li class="con">
+                    <div class="t1">12</div>
+                    <div class="t2"><a target="_blank" href="http://www.gamersky.com/z/mirrorsedge2/">镜之边缘2</a></div>
+                    <div class="t3">未知</div>
+                    <div class="t4">ACT</div>
+                    <div class="t5">6385</div>
+                </li>
+                <li class="con">
+                    <div class="t1">13</div>
+                    <div class="t2"><a target="_blank" href="http://www.gamersky.com/z/starcitizen/">星际公民</a></div>
+                    <div class="t3">未知</div>
+                    <div class="t4">SIM</div>
+                    <div class="t5">5991</div>
+                </li>
+                <li class="con">
+                    <div class="t1">14</div>
+                    <div class="t2"><a target="_blank" href="http://www.gamersky.com/z/dayz/">DayZ</a></div>
+                    <div class="t3">未知</div>
+                    <div class="t4">FPS</div>
+                    <div class="t5">5882</div>
+                </li>
+                <li class="con">
+                    <div class="t1">15</div>
+                    <div class="t2"><a target="_blank" href="http://www.gamersky.com/z/me4/">质量效应：起源</a></div>
+                    <div class="t3">未知</div>
+                    <div class="t4">ARPG</div>
+                    <div class="t5">5424</div>
+                </li>
+                <li class="con">
+                    <div class="t1">16</div>
+                    <div class="t2"><a target="_blank" href="http://www.gamersky.com/z/halflife3/">半条命3</a></div>
+                    <div class="t3">未知</div>
+                    <div class="t4">FPS</div>
+                    <div class="t5">4951</div>
+                </li>
+                <li class="con">
+                    <div class="t1">17</div>
+                    <div class="t2"><a target="_blank" href="http://www.gamersky.com/z/nomanssky/">无人深空</a></div>
+                    <div class="t3">06-22</div>
+                    <div class="t4">RPG</div>
+                    <div class="t5">4159</div>
+                </li>
+                <li class="con">
+                    <div class="t1">18</div>
+                    <div class="t2"><a target="_blank" href="http://www.gamersky.com/z/terrariaotherworld/">泰拉瑞亚：来世</a></div>
+                    <div class="t3">未知</div>
+                    <div class="t4">ACT</div>
+                    <div class="t5">4065</div>
+                </li>
+                <li class="con">
+                    <div class="t1">19</div>
+                    <div class="t2"><a target="_blank" href="http://www.gamersky.com/z/homefront2/">国土防线2：革命</a></div>
+                    <div class="t3">05-17</div>
+                    <div class="t4">FPS</div>
+                    <div class="t5">4023</div>
+                </li>
+                <li class="con">
+                    <div class="t1">20</div>
+                    <div class="t2"><a target="_blank" href="http://www.gamersky.com/z/farcry5/">孤岛惊魂5</a></div>
+                    <div class="t3">未知</div>
+                    <div class="t4">FPS</div>
+                    <div class="t5">3672</div>
+                </li>
+            </ul>
+        </div>
+        <div class="total-r">
+            <div class="totalTit">网游测试表</div>
+            <ul class="WYPH">
+                <li class="tit">
+                    <div class="t1">日期</div>
+                    <div class="t2">游戏名称</div>
+                    <div class="t3">类型</div>
+                    <div class="t4">状态</div>
+                    <div class="t5">其他</div>
+                </li>
+                <li class="con">
+                    <div class="t1">05-05</div>
+                    <div class="t2"><a target="_blank" href="http://omd.qq.com/">兽人必须死</a></div>
+                    <div class="t3">TOBA</div>
+                    <div class="t4">传承封测</div>
+                    <div class="t5 c1"><a target="_blank" href="http://omd.qq.com/">官网</a></div>
+                </li>
+                <li class="con">
+                    <div class="t1">05-03</div>
+                    <div class="t2"><a target="_blank" href="http://ow.blizzard.cn/">守望先锋</a></div>
+                    <div class="t3">FPS</div>
+                    <div class="t4">压力测试</div>
+                    <div class="t5 c1"><a target="_blank" href="http://ow.blizzard.cn/">官网</a></div>
+                </li>
+                <li class="con">
+                    <div class="t1">04-29</div>
+                    <div class="t2"><a target="_blank" href="http://mh.177yx.com">大荒传奇</a></div>
+                    <div class="t3">MMOARPG</div>
+                    <div class="t4">缥缈公测</div>
+                    <div class="t5 c1"><a target="_blank" href="http://mh.177yx.com">官网</a></div>
+                </li>
+                <li class="con">
+                    <div class="t1">04-28</div>
+                    <div class="t2"><a target="_blank" href="http://tl.changyou.com/">新天龙八部</a></div>
+                    <div class="t3">MMORPG</div>
+                    <div class="t4">公测</div>
+                    <div class="t5 c1"><a target="_blank" href="http://tl.changyou.com/">官网</a></div>
+                </li>
+                <li class="con">
+                    <div class="t1">04-28</div>
+                    <div class="t2"><a target="_blank" href="http://db.163.com/">夺宝联盟</a></div>
+                    <div class="t3">T-MOBA</div>
+                    <div class="t4">首测</div>
+                    <div class="t5 c1"><a target="_blank" href="http://db.163.com/">官网</a></div>
+                </li>
+                <li class="con">
+                    <div class="t1">04-27</div>
+                    <div class="t2"><a target="_blank" href="http://xyws.ly71.com/">西游无双2</a></div>
+                    <div class="t3">MMORPG</div>
+                    <div class="t4">首测</div>
+                    <div class="t5 c1"><a target="_blank" href="http://xyws.ly71.com/">官网</a></div>
+                </li>
+                <li class="con">
+                    <div class="t1">04-26</div>
+                    <div class="t2"><a target="_blank" href="http://fmo.dalegames.com/index.html">足球经理OL</a></div>
+                    <div class="t3">体育</div>
+                    <div class="t4">公测</div>
+                    <div class="t5 c1"><a target="_blank" href="http://fmo.dalegames.com/index.html">官网</a></div>
+                </li>
+                <li class="con">
+                    <div class="t1">04-26</div>
+                    <div class="t2"><a target="_blank" href="http://nfsol.qq.com/">极品飞车OL</a></div>
+                    <div class="t3">竞速</div>
+                    <div class="t4">首测</div>
+                    <div class="t5 c1"><a target="_blank" href="http://nfsol.qq.com/">官网</a></div>
+                </li>
+                <li class="con">
+                    <div class="t1">04-26</div>
+                    <div class="t2"><a target="_blank" href="http://am.wanmei.com">空甲联盟</a></div>
+                    <div class="t3">MOBA</div>
+                    <div class="t4">不删档测试</div>
+                    <div class="t5 c1"><a target="_blank" href="http://am.wanmei.com">官网</a></div>
+                </li>
+                <li class="con">
+                    <div class="t1">04-23</div>
+                    <div class="t2"><a target="_blank" href="http://nycs.syyx.com/">诺亚传说</a></div>
+                    <div class="t3">MMORPG</div>
+                    <div class="t4">公测</div>
+                    <div class="t5 c1"><a target="_blank" href="http://nycs.syyx.com/">官网</a></div>
+                </li>
+                <li class="con">
+                    <div class="t1">04-23</div>
+                    <div class="t2"><a target="_blank" href="http://www.iwanws.com/">武圣</a></div>
+                    <div class="t3">MMORPG</div>
+                    <div class="t4">破封测试</div>
+                    <div class="t5 c1"><a target="_blank" href="http://www.iwanws.com/">官网</a></div>
+                </li>
+                <li class="con">
+                    <div class="t1">04-22</div>
+                    <div class="t2"><a target="_blank" href="http://jz.qianz.com/">决战轩辕</a></div>
+                    <div class="t3">MMORPG</div>
+                    <div class="t4">不删档首测</div>
+                    <div class="t5 c1"><a target="_blank" href="http://jz.qianz.com/">官网</a></div>
+                </li>
+                <li class="con">
+                    <div class="t1">04-22</div>
+                    <div class="t2"><a target="_blank" href="http://dl.5ebo.com/html/ShuntPageOne/index.html">暗黑之光</a></div>
+                    <div class="t3">MMORPG</div>
+                    <div class="t4">盛大公测</div>
+                    <div class="t5 c1"><a target="_blank" href="http://dl.5ebo.com/html/ShuntPageOne/index.html">官网</a></div>
+                </li>
+                <li class="con">
+                    <div class="t1">04-21</div>
+                    <div class="t2"><a target="_blank" href="http://age.qq.com/">上古世纪</a></div>
+                    <div class="t3">MMORPG</div>
+                    <div class="t4">公测</div>
+                    <div class="t5 c1"><a target="_blank" href="http://age.qq.com/">官网</a></div>
+                </li>
+                <li class="con">
+                    <div class="t1">04-21</div>
+                    <div class="t2"><a target="_blank" href="http://sg.ccjoy.com/">末日重生</a></div>
+                    <div class="t3">MMORPG</div>
+                    <div class="t4">神话测试</div>
+                    <div class="t5 c1"><a target="_blank" href="http://sg.ccjoy.com/">官网</a></div>
+                </li>
+                <li class="con">
+                    <div class="t1">04-20</div>
+                    <div class="t2"><a target="_blank" href="http://xy.ccjoy.com/">西游无双</a></div>
+                    <div class="t3">MMORPG</div>
+                    <div class="t4">天禁测试</div>
+                    <div class="t5 c1"><a target="_blank" href="http://xy.ccjoy.com/">官网</a></div>
+                </li>
+                <li class="con">
+                    <div class="t1">04-18</div>
+                    <div class="t2"><a target="_blank" href="http://mxd2.qq.com/">冒险岛2</a></div>
+                    <div class="t3">MMORPG</div>
+                    <div class="t4">块乐首测</div>
+                    <div class="t5 c1"><a target="_blank" href="http://mxd2.qq.com/">官网</a></div>
+                </li>
+                <li class="con">
+                    <div class="t1">04-16</div>
+                    <div class="t2"><a target="_blank" href="http://lz.syyx.com/">恋战</a></div>
+                    <div class="t3">MMORPG</div>
+                    <div class="t4">不删档测试</div>
+                    <div class="t5 c1"><a target="_blank" href="http://lz.syyx.com/">官网</a></div>
+                </li>
+                <li class="con">
+                    <div class="t1">04-16</div>
+                    <div class="t2"><a target="_blank" href="http://tt.td22.com/">泰坦时代</a></div>
+                    <div class="t3">MMORPG</div>
+                    <div class="t4">公测</div>
+                    <div class="t5 c1"><a target="_blank" href="http://tt.td22.com/">官网</a></div>
+                </li>
+                <li class="con">
+                    <div class="t1">04-16</div>
+                    <div class="t2"><a target="_blank" href="http://wx.yx68.com/">无限世界</a></div>
+                    <div class="t3">MMORPG</div>
+                    <div class="t4">公测</div>
+                    <div class="t5 c1"><a target="_blank" href="http://wx.yx68.com/">官网</a></div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--热门排行结束~~~~~~~~~~-->
+
+
+
+<!--footer开始~~~~~~~~~-->
+
+<!--footer部分开始~~~~~-->
+<div class="footer">
+    <div class="footer w">
+        <div class="footer-left">
+            <img src="images/newlogo.jpg" alt=""/><span class="footer-logo">GameLoft</span>
+
+            <p class="footer-left-wy">
+                游戏资源是GameLoft的根本，游戏资讯是GameLoft的方向。我们倡导用户体验。我们希望并努力让更多业余游戏玩家对游戏感兴趣，让更多单机游戏玩家对资讯感兴趣，了解游戏圈，提高国内单机玩家综合水平。</p>
+
+            <div class="footer-left-wz">
+                <p class="footer-left-gz">关注我们：</p>
+                <ul>
+                    <li class="footer-link1"></li>
+                    <li class="footer-link2"></li>
+                    <li class="footer-link3">
+                        <div class="erweima-W">
+                            <div class="yi-img">
+                                <img src="images/yixin.jpg">
+                                <p>微信号：GameL</p>
+                                <div class="footer-arr"></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="footer-link4">
+                        <div class="erweima-W">
+                            <div class="yi-img">
+                                <img src="images/weixin.jpg">
+                                <p>易信号：GameL</p>
+                                <div class="footer-arr"></div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-left-wz-copy">
+                <span>©1997-2016 GameLoft 版权所有</span>
+            </div>
+        </div>
+        <div class="footer-right">
+            <ul>
+                <li><a href="javascript:;">关于我们</a></li>
+                <li><a href="javascript:;">联系我们</a></li>
+                <li><a href="javascript:;">帮助中心</a></li>
+                <li><a href="javascript:;">内容招募</a></li>
+                <li><a href="javascript:;">意见反馈</a></li>
+                <li><a href="javascript:;">游民星空友情链接</a></li>
+            </ul>
+            <div class="footer-right-icon">
+                <span>移动APP:</span>
+                <div class="footer-right-icon1">
+                    <ul>
+                        <li class="footer-right-icon1-img1"></li>
+                        <li class="footer-right-icon1-img2"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--footer结束~~~~~~~~~-->
+
+
+
+</body>
+</html>
+<script src="js/jquery-1.11.1.js"></script>
+<script src="js/common.js" type="text/javascript"></script>
+<script src="js/index.js" type="text/javascript"></script>
+

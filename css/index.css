@@ -1,0 +1,452 @@
+
+/*top部分开始~~*/
+.top {
+    width: 100%;
+    height: 820px;
+    margin-top: 60px;
+    background: url("../images/dota.jpg") center;
+}
+
+.top-top {
+    height: 514px;
+}
+
+.top-top .tit {
+    width: 426px;
+    height: 230px;
+    margin: 0 auto;
+    text-align: center;
+    color: #006699;
+    font: 400 90px/230px "Arial", \5fae\8f6f\96c5\9ed1;
+    cursor: pointer;
+}
+
+.top-top .des {
+    width: 850px;
+    margin: 0 auto;
+    color: #006699;
+    text-align: center;
+    font: 400 20px/36px "Arial", \5fae\8f6f\96c5\9ed1;
+}
+
+.top-top a {
+    display: block;
+    width: 260px;
+    height: 62px;
+    color: #fff;
+    font: 400 28px/60px "Arial", \5fae\8f6f\96c5\9ed1;
+    padding-left: 15px;
+    margin: 75px auto;
+    background: url("../images/introElf.png") 0px -150px no-repeat;
+}
+
+.top-top a:hover {
+    background: url("../images/introElf.png") -347px -150px no-repeat;
+}
+
+.top-bottom {
+    height: 306px;
+    background-color: rgba(255, 255, 255, .3);
+}
+.t-b-content {
+    height: 306px;
+    padding: 0 90px;
+    color: #fff;
+}
+.icon {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto;
+    background: url("../images/introElf.png") no-repeat
+}
+.t-b-content .titFont {
+    font: 400 24px/66px "Arial", \5fae\8f6f\96c5\9ed1;
+}
+.t-b-content .desFont {
+    font: 400 16px/28px "Arial", \5fae\8f6f\96c5\9ed1;
+}
+.part1 {
+    width: 25%;
+    text-align: center;
+    margin-top: 40px;
+    float: left;
+}
+.part1-icon {
+    background-position: 5px -320px;
+}
+
+.part2 {
+    width: 25%;
+    text-align: center;
+    margin-top: 40px;
+    float: left;
+}
+.part2-icon {
+    background-position: -116px -320px;
+}.part3 {
+     width: 25%;
+     text-align: center;
+     margin-top: 40px;
+     float: left;
+ }
+.part3-icon {
+    background-position: -240px -316px;
+}.part4 {
+     width: 25%;
+     text-align: center;
+     margin-top: 40px;
+     float: left;
+ }
+.part4-icon {
+    background-position: -368px -314px;
+}
+/*top部分结束~~~~~~~~~*/
+
+/*banner部分开始~~~~~~~~~~~*/
+
+.word-tit {
+    text-align: center;
+    line-height: 32px;
+    font-size: 28px;
+    margin: 80px 0 40px 0;
+    color: #333;
+    font-family:"Arial", \5fae\8f6f\96c5\9ed1;
+}
+
+/*旋转木马轮播图*/
+.wrap{
+    width:1200px;
+    margin:50px auto;
+    padding-bottom: 220px;
+    border-bottom: 1px dashed #dcdcdc;
+}
+.slide {
+    height:500px;
+    position: relative;
+}
+.slide li{
+    position: absolute;
+    left:200px;
+    top:0;
+}
+.slide li img{
+    width:100%;
+}
+.arrow{
+    opacity: 0;
+}
+.prev,.next{
+    width:76px;
+    height:112px;
+    position: absolute;
+    top:50%;
+    margin-top:-56px;
+    background: url(../images/prev.png) no-repeat;
+    z-index: 99;
+}
+.next{
+    right:0;
+    background-image: url(../images/next.png);
+}
+
+
+
+/*游戏分类开始~~~~~~~~~~*/
+/*table部分开始~~~~~~~*/
+.main-table {
+    padding-top: 14px;
+}
+
+
+.table-main {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.table-main  td {
+    height: 220px;
+    background: #4da0e6;
+    border: 2px solid #fff;
+    overflow: hidden;
+    font-family: "Arial", \5fae\8f6f\96c5\9ed1;
+}
+.table-main a {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.td-name {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    padding-top: 35px;
+}
+.table-main .name2 {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    padding-top: 0;
+}
+.td-icon {
+    text-align: center;
+    color: #fff;
+    height: 89px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.td-icon img{
+    border-radius: 16px;
+}
+.td-org {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+.td-des {
+    height: 220px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: #2a89dd;
+    display: none;
+    /*opacity: 0;*/
+}
+.td-des .cnt {
+    width: 220px;
+    height: 120px;
+    overflow: hidden;
+    color: #fff;
+    font-size: 12px;
+    line-height: 24px;
+    margin: 30px auto 0;
+}
+.td-des .more{
+    width: 100px;
+    height: 26px;
+    line-height: 26px;
+    border-radius: 26px;
+    color: #2a89dd;
+    background: #fff;
+    text-align: center;
+    margin: 10px auto;
+}
+
+/*table部分结束~~~~~~~*/
+
+
+/*热门排行开始~~~~~*/
+.Mid {
+    margin: 80px auto;
+    padding: 10px 20px 0;
+    width: 1060px;
+    height: auto;
+    background: #f2f2f3;
+    box-shadow: 0 10px 30px 0 rgba(0,0,0,1);
+    position: relative;
+    overflow: hidden;
+}
+.total {
+    margin-left: -20px;
+    padding: 25px 20px 40px;
+    width: 1060px;
+    height: auto;
+    background: #262626;
+    overflow: hidden;
+}
+.total-l {
+    float: left;
+    margin-right: 30px;
+    width: 319px;
+    height: auto;
+}
+.total-r {
+    float: left;
+    width: 362px;
+    height: auto;
+}
+
+.totalTit {
+    width: auto;
+    height: 40px;
+    line-height: 22px;
+    color: #999;
+    font-size: 18px;
+    font-family: 'Microsoft YaHei';
+}
+.RY .tit,.RY .con .c2 {
+    color: #f65c4c;
+}
+.XY .tit,.XY .con .c1 {
+    color: #51b6b9;
+}
+ul.PH {
+    width: 319px;
+    height: auto;
+}
+ul li {
+    list-style-type: none;
+    vertical-align: middle;
+}
+ul.PH li.tit {
+    width: 321px;
+    height: 30px;
+}
+ul.PH li.tit div {
+    float: left;
+    margin-right: 1px;
+    height: 27px;
+    line-height: 27px;
+    background: #161616;
+    border-top: 1px solid #060606;
+}
+ul.PH li.tit div.t1 {
+    width: 32px;
+    text-align: center;
+}
+ul.PH li.tit div.t2 {
+    width: 141px;
+    text-indent: 8px;
+}
+ul.PH li.tit div.t3 {
+    width: 60px;
+    text-align: center;
+}
+ul.PH li.tit div.t4 {
+    width: 37px;
+    text-align: center;
+}
+ul.PH li.tit div.t5 {
+    width: 45px;
+    text-align: center;
+}
+
+
+ul.PH li.con {
+    width: 321px;
+    height: 28px;
+    border-bottom: 1px dotted #333;
+}
+ul.PH li.con div {
+    float: left;
+    margin-right: 1px;
+    height: 28px;
+    line-height: 28px;
+    color: #777;
+}
+ul.PH li.con div.t1 {
+    width: 32px;
+    text-align: center;
+    font-family: SimSun;
+    font-weight: bold;
+    background: #1e1e1e;
+}
+ul.PH li.con div.t2 {
+    width: 141px;
+    text-indent: 8px;
+}
+ul.PH li.con div.t3 {
+    width: 60px;
+    text-align: center;
+}
+ul.PH li.con div.t4 {
+    width: 37px;
+    text-align: center;
+}
+ul.PH li.con div.t5 {
+    width: 45px;
+    text-align: center;
+}
+
+ul.WYPH {
+    width: 362px;
+    height: auto;
+}
+ul.WYPH li.tit {
+    width: 364px;
+    height: 30px;
+    color: #da83e8;
+}
+ul.WYPH li.tit div {
+    float: left;
+    margin-right: 2px;
+    height: 27px;
+    line-height: 27px;
+    background: #161616;
+    border-top: 1px solid #060606;
+}
+ul.WYPH li.tit div.t1 {
+    width: 45px;
+    text-align: center;
+}
+ul.WYPH li.tit div.t2 {
+    width: 116px;
+    text-indent: 8px;
+}
+ul.WYPH li.tit div.t3 {
+    width: 47px;
+    text-align: center;
+}
+ul.WYPH li.tit div.t4 {
+    width: 86px;
+    text-indent: 8px;
+}
+ul.WYPH li.tit div.t5 {
+    width: 60px;
+    text-align: center;
+}
+
+ul.WYPH li.con {
+    width: 364px;
+    height: 28px;
+    border-bottom: 1px dotted #333;
+}
+
+ul.WYPH li.con div {
+    float: left;
+    margin-right: 2px;
+    height: 28px;
+    line-height: 28px;
+    color: #777;
+}
+ul.WYPH li.con div.t1 {
+    width: 45px;
+    text-align: center;
+    font-family: SimSun;
+    background: #1e1e1e;
+}
+ul.WYPH li.con div.t2 {
+    width: 116px;
+    text-indent: 8px;
+}
+ul.WYPH li.con div.t3 {
+    width: 47px;
+    text-align: center;
+}
+ul.WYPH li.con div.t4 {
+    width: 86px;
+    text-indent: 8px;
+}
+ul.WYPH li.con div.t5 {
+    width: 60px;
+    text-align: center;
+    color: #777;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

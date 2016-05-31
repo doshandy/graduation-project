@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>LOL</title>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/LOL.css"/>
+</head>
+<body>
+<!--返回顶部-->
+<div class="backtop">
+    <div class="backtop-top"></div>
+    <div class="backtop-middle"></div>
+    <div class="backtop-bottom"></div>
+
+</div>
+
+<!--返回顶部-->
+
+<!--登陆模态框开始-->
+<div class="mask">
+    <div class="show">
+        <span class="close">×</span>
+        <img src="images/gameFeeling.jpg"/>
+        <div class="login-main fl">
+            <div class="inpBox item item1">
+                <label for="uid">常用邮箱/手机号</label>
+                <input type="text" id="uid"/>
+            </div>
+            <div class="inpBox item item2">
+                <label for="pwd">密码</label>
+                <input type="password" id="pwd"/>
+            </div>
+            <div class="login-left item clearfix">
+                <div class="fl">
+                    <input type="checkbox" id="auto"/>
+                    <label for="auto">自动登录</label>
+                </div>
+                <a href="javascript:;" class="fr cg" id="forget">忘记密码？</a>
+            </div>
+            <input type="submit" class="login-btn item"/>
+            <div class="reg item al">
+                <a href="注册.html" target="_blank">没有账号？<span class="cg">立即注册</span></a>
+            </div>
+        </div>
+        <div class="split fl">
+            <div class="or">或</div>
+        </div>
+        <div class="login-quick fl">
+            <a href="javascript:;" class="quick1"></a>
+            <a href="javascript:;" class="quick2"></a>
+            <a href="javascript:;" class="quick3"></a>
+            <a href="javascript:;" class="quick4"></a>
+        </div>
+    </div>
+</div>
+<!--登陆模态框开始-->
+
+
+<!--topnav部分~~~start~~~~~-->
+<div class="nav">
+    <!--版心部分-->
+    <div class="w">
+        <!--logo部分-->
+        <div class="nav-logo">
+            <!--logo左-->
+            <div class="nav-logo-l fl">
+                <a href="#"><img src="images/newlogo.jpg" title="gameLoft"/>GameLoft</a>
+            </div>
+            <div class="nav-logo-r">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+        <!--首页部分开始-->
+        <div class="nav-center">
+            <ul class="nav-list">
+                <li><a href="index.html" target="_blank">首页</a></li>
+                <li>
+                    <a href="javascript:;">游戏分类</a>
+                    <div class="flyBox">
+                        <img src="images/footer-erweima-pic.png" alt=""/>
+                        <ul>
+                            <li><a href="javascript:;">单机游戏</a></li>
+                            <li><a href="javascript:;">网络游戏</a></li>
+                            <li><a href="javascript:;">手机游戏</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="javascript:;">热门导航</a></li>
+                <li><a href="javascript:;">个人中心</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="nav-right-left">
+                <label for="inp">搜索</label>
+                <input type="text" id="inp"/>
+            </div>
+            <div class="nav-right-right">
+                <a href="#" id="login">登陆</a>
+                <a href="注册.html" target="_blank">注册</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--topnav部分~~~end~~~~~-->
+
+<div class="bg">
+    <div class="center">
+        <div class="hd">
+            <div class="hd-tit">
+                <img src="images/LOLlogo.jpg"/>
+                <div class="word-logo">GameLoft英雄联盟专区</div>
+            </div>
+            <ul class="menu">
+                <li class="menu01">
+                    <a href="javascript:;" class="current">首页</a>
+                </li>
+                <li class="menu02">
+                    <a href="javascript:;">专题</a>
+                </li>
+                <li class="menu03">
+                    <a href="javascript:;">视频</a>
+                </li>
+                <li class="menu04">
+                    <a href="javascript:;">数据库</a>
+                </li>
+                <li class="menu05">
+                    <a href="javascript:;">直播</a>
+                </li>
+                <li class="menu06">
+                    <a href="javascript:;">赛事资讯</a>
+                </li>
+                <li class="menu07">
+                    <a href="javascript:;">论坛交流</a>
+                </li>
+            </ul>
+        </div>
+        <div class="center-con clearfix">
+            <div class="banner" id="banner">
+                <ul id="ul">
+                    <li>
+                        <img src="images/LOLb1.jpg"/>
+                        <div class="word-des">
+                            <div class="des-tit">无形装逼，最为致命</div>
+                            <div class="des-con">劫是LOL中第四位忍者英雄，也是以能量消耗为主的无蓝条英雄。他拥有很高的技能爆发，能够很轻松收割人头，他还能利用隐分身进行位移，骚扰，补刀等。</div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/LOLb2.jpg"/>
+                        <div class="word-des">
+                            <div class="des-tit">再削也挡不住的艾瑞莉娅</div>
+                            <div class="des-con">刀锋意志是一个刺客型副坦的英雄，最常打的路线是上路。俗称由于多次受到命运的阻挠，经受了巨大的挫折，被连续削弱11次，但仍是上单一霸。</div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/LOLb3.jpg"/>
+                        <div class="word-des">
+                            <div class="des-tit">你最值得入手的英雄皮肤</div>
+                            <div class="des-con">皮肤并不是必需品，但是在经济条件允许的确前提下，提升自己的游戏观赏性和实用性，也是一种不错的体验。</div>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="center-right">
+                <div class="top-news">
+                    <div class="top-news-con clearfix">
+                        <div class="newstit">
+                            <a href="javascript:;">2016英雄联盟职业联赛春季赛</a>
+                        </div>
+                        <div class="newsimg">
+                            <img src="images/LOLn1.jpg"/>
+                        </div>
+                        <div class="newscontent">时间：2016-01-14-2016-04-26 <br/>
+                            地点：上海虹桥天地演艺中心3F（多功能厅）</div>
+                    </div>
+                </div>
+                <div class="top-news">
+                    <div class="top-news-con clearfix">
+                        <div class="newstit">
+                            <a href="javascript:;">老兵不死，只是凋零</a>
+                        </div>
+                        <div class="newsimg">
+                            <img src="images/LOLn2.jpg"/>
+                        </div>
+                        <div class="newscontent">统治战场模式已经陪伴我们走过了四载春秋，现在到了和这个以快节奏遭遇战和夺旗-占领玩法为目标的模式说再见的时候了。那些身经百战、并用实际行动维护着这一模式的统治战场老兵们都将获得“战场统治者图标”作为表彰。</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="center-main">
+            <div class="main-area clearfix">
+                <div class="area-left fl">
+                    <ul class="index-tabs clearfix">
+                        <li class="tab-item current">
+                            <a target="_blank" href="javascript:;">最新资讯</a>
+                        </li>
+                        <li class="tab-item">
+                            <a target="_blank" href="javascript:;">原创攻略</a>
+                        </li>
+                        <li class="tab-item">
+                            <a target="_blank" href="javascript:;">外服资讯</a>
+                        </li>
+                        <li class="tab-item">
+                            <a target="_blank" href="javascript:;">赛事资讯</a>
+                        </li>
+                        <li class="tab-item">
+                            <a target="_blank" href="javascript:;">官方新闻</a>
+                        </li>
+                    </ul>
+                    <ul class="index-content">
+                        <li class="current">
+                            <div class="part">
+                                <a href="javascript:;" class="partpic"><img src="images/LOLtab1.jpg"/></a>
+                                <div class="partcon">
+                                    <h2>
+                                        <a href="javascript:;">大连首支电竞女神战队 白富美颜值爆表身材魔鬼</a>
+                                    </h2>
+                                    <div class="text">
+                                        现今，要说网络什么最火?异口同声地答案是：电竞圈火爆。火爆也衍生出许多以前从来不敢想象的职业：电竞美女、电竞主播、电竞陪玩等。大连这座兼具浪漫与现代的国际都市，电子竞技产业方兴未艾，电竞美女和电竞主播鲜为人知，今天让我们走近大连首支LOL女子战队NPG(Nuclear Power Girls )，颜值超高个个白富美!
+                                    </div>
+                                    <p class="info clearfix">
+                                        <a href="javascript:;" class="fr">
+                                            <i class="tips tip-zf">转发</i>
+                                        </a>
+                                        <a href="javascript:;" class="fr">
+                                            <i class="tips tip-good">赞（217）</i>
+                                        </a>
+                                        <i class="tipicon tipicon1">国搜河南</i>
+                                        <i class="tipicon tipicon2">2016-04-27</i>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="part">
+                                <a href="javascript:;" class="partpic"><img src="images/LOLtab2.jpg"/></a>
+                                <div class="partcon">
+                                    <h2>
+                                        <a href="javascript:;">拳头终于放大招了：LOL排位队友掉线竟然将永不扣分！</a>
+                                    </h2>
+                                    <div class="text">
+                                        话说LOL新版的检测系统裁决之镰上线也有一段时间了，就专治各种逃跑，挂机，等不讲理行为，按理说这是好事啊，可一样搞得好多小伙伴忍受不了这个系统惩罚!
+                                    </div>
+                                    <p class="info clearfix">
+                                        <a href="javascript:;" class="fr">
+                                            <i class="tips tip-zf">转发</i>
+                                        </a>
+                                        <a href="javascript:;" class="fr">
+                                            <i class="tips tip-good">赞（200）</i>
+                                        </a>
+                                        <i class="tipicon tipicon1">今日</i>
+                                        <i class="tipicon tipicon2">2016-04-27</i>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="part">
+                                <a href="javascript:;" class="partpic"><img src="images/LOLtab3.jpg"/></a>
+                                <div class="partcon">
+                                    <h2>
+                                        <a href="javascript:;">LOL民间大神们创作的英雄皮肤：出了必买系列！</a>
+                                    </h2>
+                                    <div class="text">
+                                        关于LOL里的皮肤，相信很多玩家首选看到的是原画，其次才是游戏里的各种3D模型，原画是LOL皮肤设计上很重要的一环，而拳头也时不时举办各种民间皮肤设计大赛，不过最近1年似乎没了动静。如果没记错的话，早在2014年底，腾讯还举办过一次，那一次也收到了大量玩家制作的皮肤，不知道这种皮肤大赛什么时候再次举办呢?
+                                    </div>
+                                    <p class="info clearfix">
+                                        <a href="javascript:;" class="fr">
+                                            <i class="tips tip-zf">转发</i>
+                                        </a>
+                                        <a href="javascript:;" class="fr">
+                                            <i class="tips tip-good">赞（184）</i>
+                                        </a>
+                                        <i class="tipicon tipicon1">德玛西亚学院</i>
+                                        <i class="tipicon tipicon2">2016-04-27</i>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="part">
+                                <a href="javascript:;" class="partpic"><img src="images/LOLtab4.jpg"/></a>
+                                <div class="partcon">
+                                    <h2>
+                                        <a href="javascript:;">LOL最适合新手玩的5大上单 最后这个连小学生都会玩！</a>
+                                    </h2>
+                                    <div class="text">
+                                        LOL新手玩上单英雄选择是很重要的，因为上单的路线相对较长，所以非常容易被人滚起雪球。新手上单一定要操作简单无脑、而且发育起来可以无脑的冲对方后排。
+                                    </div>
+                                    <p class="info clearfix">
+                                        <a href="javascript:;" class="fr">
+                                            <i class="tips tip-zf">转发</i>
+                                        </a>
+                                        <a href="javascript:;" class="fr">
+                                            <i class="tips tip-good">赞（186）</i>
+                                        </a>
+                                        <i class="tipicon tipicon1">LOL大</i>
+                                        <i class="tipicon tipicon2">2016-04-27</i>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="part">
+                                <a href="javascript:;" class="partpic"><img src="images/LOLtab5.jpg"/></a>
+                                <div class="partcon">
+                                    <h2>
+                                        <a href="javascript:;">LOL塔姆Bug超远距离舌头吞救队友！敌人懵了</a>
+                                    </h2>
+                                    <div class="text">
+                                        LOL中塔姆肯奇这个英雄自从他降临之后，就一直是非常不错的团队辅助定位。不管是上单的粘人性，还是辅助的救人方面，都拥有不错的表现。当然它也被称为是辅助中的大爷，因为一言不合就会吞人送头...而关于他身上的问题一直有不少。
+                                    </div>
+                                    <p class="info clearfix">
+                                        <a href="javascript:;" class="fr">
+                                            <i class="tips tip-zf">转发</i>
+                                        </a>
+                                        <a href="javascript:;" class="fr">
+                                            <i class="tips tip-good">赞（746）</i>
+                                        </a>
+                                        <i class="tipicon tipicon1">娱乐</i>
+                                        <i class="tipicon tipicon2">2016-04-21</i>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="part">
+                                <a href="javascript:;" class="partpic"><img src="images/LOLtab6.jpg"/></a>
+                                <div class="partcon">
+                                    <h2>
+                                        <a href="javascript:;">LOL年中法师技能更新预览：又成了一个新游戏</a>
+                                    </h2>
+                                    <div class="text">
+                                        今天，从LOL测试服传来的消息，年中法师更新已经上线，其更新内容之多令人乍舌，当然除了法师更新外，还有许多内容的改动，比如新的皮肤、新的模型以及新装备的更新，而本篇文章将着重为大家介绍关于新版法师的内容，话不多说，我们开始吧。
+                                    </div>
+                                    <p class="info clearfix">
+                                        <a href="javascript:;" class="fr">
+                                            <i class="tips tip-zf">转发</i>
+                                        </a>
+                                        <a href="javascript:;" class="fr">
+                                            <i class="tips tip-good">赞（732）</i>
+                                        </a>
+                                        <i class="tipicon tipicon1">撸圈</i>
+                                        <i class="tipicon tipicon2">2016-04-21</i>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="part">
+                                <a href="javascript:;" class="partpic"><img src="images/LOLtab7.jpg"/></a>
+                                <div class="partcon">
+                                    <h2>
+                                        <a href="javascript:;">LOL的“抄袭”越来越严重 难道你们一点感觉也没有？</a>
+                                    </h2>
+                                    <div class="text">
+                                        最近，随着LOL美服测试服更新了5条不同属性的小龙后，很多人在感叹游戏越来越难理解之外，更多的人也表示这样游戏才有意思，难道真的是这样吗?
+
+                                    </div>
+                                    <p class="info clearfix">
+                                        <a href="javascript:;" class="fr">
+                                            <i class="tips tip-zf">转发</i>
+                                        </a>
+                                        <a href="javascript:;" class="fr">
+                                            <i class="tips tip-good">赞（655）</i>
+                                        </a>
+                                        <i class="tipicon tipicon1">德玛</i>
+                                        <i class="tipicon tipicon2">2016-04-22</i>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="part">
+                                <a href="javascript:;" class="partpic"><img src="images/LOLtab8.jpg"/></a>
+                                <div class="partcon">
+                                    <h2>
+                                        <a href="javascript:;">LOL年中大改法师要逆天 单挑大龙仅需12秒</a>
+                                    </h2>
+                                    <div class="text">
+                                        在近日更新的测试服中铁男带着2万7血的宠物，其他AP英雄数据一个比一个逆天，大量关于年中法师的更新内容也曝光了，此外还有新皮肤以及全新的4龙BUFF。
+                                    </div>
+                                    <p class="info clearfix">
+                                        <a href="javascript:;" class="fr">
+                                            <i class="tips tip-zf">转发</i>
+                                        </a>
+                                        <a href="javascript:;" class="fr">
+                                            <i class="tips tip-good">赞（676）</i>
+                                        </a>
+                                        <i class="tipicon tipicon1">17173</i>
+                                        <i class="tipicon tipicon2">2016-04-22</i>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="part">
+                                <a href="javascript:;" class="partpic"><img src="images/LOLtab9.jpg"/></a>
+                                <div class="partcon">
+                                    <h2>
+                                        <a href="javascript:;">LOL设计师爆料：瑞兹将再次重做！真是日了Dog了！</a>
+                                    </h2>
+                                    <div class="text">
+                                        LOL在今年的改动有很多，其中最大的框架排位系统都被新模式取代，因此可谓是LOL发展史上的一次重大交替之年。而随着版本的补丁变化，很多英雄也在崛起，其中大家耳熟能详的就是影流之主劫了。虽然目前在联赛中劫的出场率并不是很高，但是AD装备的加强，新增幕刃，以及自身能力的平衡后。劫成为了S6最当红的杀手英雄。
+                                    </div>
+                                    <p class="info clearfix">
+                                        <a href="javascript:;" class="fr">
+                                            <i class="tips tip-zf">转发</i>
+                                        </a>
+                                        <a href="javascript:;" class="fr">
+                                            <i class="tips tip-good">赞（652）</i>
+                                        </a>
+                                        <i class="tipicon tipicon1">腾讯</i>
+                                        <i class="tipicon tipicon2">2016-04-22</i>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="part">
+                                <a href="javascript:;" class="partpic"><img src="images/LOLtab1.jpg"/></a>
+                                <div class="partcon">
+                                    <h2>
+                                        <a href="javascript:;">大连首支电竞女神战队 白富美颜值爆表身材魔鬼</a>
+                                    </h2>
+                                    <div class="text">
+                                        现今，要说网络什么最火?异口同声地答案是：电竞圈火爆。火爆也衍生出许多以前从来不敢想象的职业：电竞美女、电竞主播、电竞陪玩等。大连这座兼具浪漫与现代的国际都市，电子竞技产业方兴未艾，电竞美女和电竞主播鲜为人知，今天让我们走近大连首支LOL女子战队NPG(Nuclear Power Girls )，颜值超高个个白富美!
+                                    </div>
+                                    <p class="info clearfix">
+                                        <a href="javascript:;" class="fr">
+                                            <i class="tips tip-zf">转发</i>
+                                        </a>
+                                        <a href="javascript:;" class="fr">
+                                            <i class="tips tip-good">赞（217）</i>
+                                        </a>
+                                        <i class="tipicon tipicon1">国搜河南</i>
+                                        <i class="tipicon tipicon2">2016-04-27</i>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="part">
+                                <a href="javascript:;" class="partpic"><img src="images/LOLtab10.jpg"/></a>
+                                <div class="partcon">
+                                    <h2>
+                                        <a href="javascript:;">LOL是座美容院！盘点选手们的惊天变化</a>
+                                    </h2>
+                                    <div class="text">
+                                        在很多游戏迷的眼里，坐在电脑面前玩一天游戏应该是最美好的事情了。很少运动，部分人又爱喝碳酸饮料吃零食，所以很容易发福。比如SKT的ADC bang!也许你还记得他，以前的他是这样的
+                                    </div>
+                                    <p class="info clearfix">
+                                        <a href="javascript:;" class="fr">
+                                            <i class="tips tip-zf">转发</i>
+                                        </a>
+                                        <a href="javascript:;" class="fr">
+                                            <i class="tips tip-good">赞（269）</i>
+                                        </a>
+                                        <i class="tipicon tipicon1">LOL掌门</i>
+                                        <i class="tipicon tipicon2">2016-04-26</i>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="part">
+                                <a href="javascript:;" class="partpic"><img src="images/LOLtab11.jpg"/></a>
+                                <div class="partcon">
+                                    <h2>
+                                        <a href="javascript:;">讲道理分析一波：QG内部矛盾升级 UZI离开几率多大？</a>
+                                    </h2>
+                                    <div class="text">
+                                        随着2016年LPL春季总决赛的结束，QG这支在常规赛被一路看到的队伍，却因为内部管理问题导致了后期直接爆炸，而这一戏剧性的结局伤害的不仅仅是广大QG粉丝，相信更多的人也为小狗感到不值。
+                                    </div>
+                                    <p class="info clearfix">
+                                        <a href="javascript:;" class="fr">
+                                            <i class="tips tip-zf">转发</i>
+                                        </a>
+                                        <a href="javascript:;" class="fr">
+                                            <i class="tips tip-good">赞（323）</i>
+                                        </a>
+                                        <i class="tipicon tipicon1">LOL大人</i>
+                                        <i class="tipicon tipicon2">2016-04-26</i>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="part">
+                                <a href="javascript:;" class="partpic"><img src="images/LOLtab2.jpg"/></a>
+                                <div class="partcon">
+                                    <h2>
+                                        <a href="javascript:;">拳头终于放大招了：LOL排位队友掉线竟然将永不扣分！</a>
+                                    </h2>
+                                    <div class="text">
+                                        话说LOL新版的检测系统裁决之镰上线也有一段时间了，就专治各种逃跑，挂机，等不讲理行为，按理说这是好事啊，可一样搞得好多小伙伴忍受不了这个系统惩罚!
+                                    </div>
+                                    <p class="info clearfix">
+                                        <a href="javascript:;" class="fr">
+                                            <i class="tips tip-zf">转发</i>
+                                        </a>
+                                        <a href="javascript:;" class="fr">
+                                            <i class="tips tip-good">赞（200）</i>
+                                        </a>
+                                        <i class="tipicon tipicon1">今日</i>
+                                        <i class="tipicon tipicon2">2016-04-27</i>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="part">
+                                <a href="javascript:;" class="partpic"><img src="images/LOLtab12.jpg"/></a>
+                                <div class="partcon">
+                                    <h2>
+                                        <a href="javascript:;">LOL劫步狮子狗后尘被官方禁用 原是有BUG！</a>
+                                    </h2>
+                                    <div class="text">
+                                        继前几天6.7刚上线不久后狮子狗被禁用，今天又一个英雄被禁用了。
+                                    </div>
+                                    <p class="info clearfix">
+                                        <a href="javascript:;" class="fr">
+                                            <i class="tips tip-zf">转发</i>
+                                        </a>
+                                        <a href="javascript:;" class="fr">
+                                            <i class="tips tip-good">赞（1128）</i>
+                                        </a>
+                                        <i class="tipicon tipicon1">德玛</i>
+                                        <i class="tipicon tipicon2">2016-04-14</i>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="part">
+                                <a href="javascript:;" class="partpic"><img src="images/LOLtab13.jpg"/></a>
+                                <div class="partcon">
+                                    <h2>
+                                        <a href="javascript:;">LOL狮子狗雷恩加尔禁用公告：技能CD有Bug！</a>
+                                    </h2>
+                                    <div class="text">
+                                        由于傲之追猎者雷恩加尔存在“使用R技能过程中被杀死后经过一些特定步骤会导致所有技能冷却时间为零”的严重缺陷，该缺陷将严重影响游戏平衡性，需要紧急禁用雷恩加尔。我们会在确保该问题被彻底修复
+                                    </div>
+                                    <p class="info clearfix">
+                                        <a href="javascript:;" class="fr">
+                                            <i class="tips tip-zf">转发</i>
+                                        </a>
+                                        <a href="javascript:;" class="fr">
+                                            <i class="tips tip-good">赞（1180）</i>
+                                        </a>
+                                        <i class="tipicon tipicon1">娱乐</i>
+                                        <i class="tipicon tipicon2">2016-04-13</i>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="area-right fr">
+                    <div class="right-tit">
+                        <i class="right-icon icon-pic">图片精选</i>
+                    </div>
+                    <ul class="piclist">
+                        <li>
+                            <a href="javascript:;">
+                                <img src="images/LOLp1.jpg"/>
+                            </a>
+                            <a href="javascript:;">猴哥生气了，大圣归来称霸上路</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="images/LOLp2.jpg"/>
+                            </a>
+                            <a href="javascript:;">LOL新版本热门英雄悉数阵亡：6.7版本谁将称霸</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="images/LOLp3.jpg"/>
+                            </a>
+                            <a href="javascript:;">皮肤竟然有加成！ 影响LOL平衡的26款皮肤</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="images/LOLp4.jpg"/>
+                            </a>
+                            <a href="javascript:;">宝石重做全曝光 大招能让所有队友无敌！</a>
+                        </li>
+                    </ul>
+                    <div class="right-tit mt">
+                        <i class="right-icon icon-game">游戏信息</i>
+                    </div>
+                    <ul class="game-message">
+                        <li>
+                            <span class="dot">·</span>
+                            <span class="dark">游戏名称：</span>
+                            英雄联盟
+                        </li>
+                        <li>
+                            <span class="dot">·</span>
+                            <span class="dark">开发公司：</span>
+                            Riot│
+                            <a href="http://na.leagueoflegends.com/" target="_blank">美服官网</a>
+                        </li>
+                        <li>
+                            <span class="dot">·</span>
+                            <span class="dark">运营公司：</span>
+                            腾讯│
+                            <a href="http://lol.17173.com/" target="_blank">国服官网</a>
+                        </li>
+                        <li>
+                            <span class="dot">·</span>
+                            <span class="dark">专区编辑：</span>
+                            孙伟 dos handy
+                        </li>
+                        <li>
+                            <span class="dot">·</span>
+                            <span class="dark">联系责编：</span>
+                            sun8630520@126.com
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="center-footer"></div>
+    </div>
+    <div class="footer-bg"></div>
+</div>
+
+
+
+<!--footer部分开始~~~~~-->
+<div class="footer">
+    <div class="footer w">
+        <div class="footer-left">
+            <img src="images/newlogo.jpg" alt=""/><span class="footer-logo">GameLoft</span>
+
+            <p class="footer-left-wy">
+                游戏资源是GameLoft的根本，游戏资讯是GameLoft的方向。我们倡导用户体验。我们希望并努力让更多业余游戏玩家对游戏感兴趣，让更多单机游戏玩家对资讯感兴趣，了解游戏圈，提高国内单机玩家综合水平。</p>
+
+            <div class="footer-left-wz">
+                <p class="footer-left-gz">关注我们：</p>
+                <ul>
+                    <li class="footer-link1"></li>
+                    <li class="footer-link2"></li>
+                    <li class="footer-link3">
+                        <div class="erweima-W">
+                            <div class="yi-img">
+                                <img src="images/yixin.jpg">
+                                <p>微信号：GameL</p>
+                                <div class="footer-arr"></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="footer-link4">
+                        <div class="erweima-W">
+                            <div class="yi-img">
+                                <img src="images/weixin.jpg">
+                                <p>易信号：GameL</p>
+                                <div class="footer-arr"></div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-left-wz-copy">
+                <span>©1997-2016 GameLoft 版权所有</span>
+            </div>
+        </div>
+        <div class="footer-right">
+            <ul>
+                <li><a href="javascript:;">关于我们</a></li>
+                <li><a href="javascript:;">联系我们</a></li>
+                <li><a href="javascript:;">帮助中心</a></li>
+                <li><a href="javascript:;">内容招募</a></li>
+                <li><a href="javascript:;">意见反馈</a></li>
+                <li><a href="javascript:;">游民星空友情链接</a></li>
+            </ul>
+            <div class="footer-right-icon">
+                <span>移动APP:</span>
+                <div class="footer-right-icon1">
+                    <ul>
+                        <li class="footer-right-icon1-img1"></li>
+                        <li class="footer-right-icon1-img2"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--footer结束~~~~~~~~~-->
+
+</body>
+</html>
+<script src="js/jquery-1.11.1.js"></script>
+<script src="js/common.js" type="text/javascript"></script>
+<script src="js/LOL.js" type="text/javascript"></script>

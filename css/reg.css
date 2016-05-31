@@ -1,0 +1,210 @@
+body {
+    background: #0d0d0d url("../images/regbg.jpg") center 0 no-repeat;
+}
+
+.top {
+    width: 100%;
+    height: 80px;
+    padding-top: 40px;
+}
+.top .logo {
+    height: 80px;
+    width: 900px;
+    margin: 0 auto;
+}
+.top .logo a {
+    font: 700 40px/40px "Arial", \5fae\8f6f\96c5\9ed1;
+    color: orangered;
+}
+
+
+
+
+/*main部分开始*/
+
+.main {
+    width: 100%;
+    height: auto;
+}
+.main .content {
+    width: 900px;
+    height: auto;
+    background-color: #f9f9f9;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.content .regist {
+    width: 750px;
+    height: 700px;
+    padding: 0 75px;
+}
+.regist .reg-l {
+    float: left;
+    padding-right: 50px;
+    width: 438px;
+    height: 619px;
+    border-right: 1px solid #e5e5e5;
+}
+.tit {
+    width: auto;
+    height: 60px;
+    color: #333;
+    text-align: center;
+    font: 700 26px/40px "Arial", \5fae\8f6f\96c5\9ed1;
+}
+.regLnav {
+    width: 100%;
+    height: 55px;
+    text-align: center;
+}
+.reg-l .regLnav a {
+    float: left;
+    display: inline-block;
+    width: 219px;
+    height: 38px;
+    font: 700 16px/38px "Arial", \5fae\8f6f\96c5\9ed1;
+    border-top: 5px solid #ddd;
+}
+.reg-l .regLnav a.cur {
+    color: #e23703;
+    border-top: 5px solid #e23703;
+    background: url("../images/tx-nav.png") center -4px no-repeat;
+}
+
+.reg-l .regLcon {
+    width: 100%;
+}
+.reg-l .regLcon .input {
+    width: 100%;
+}
+.reg-l .regLcon .input input.int {
+    background: #fff;
+    border: 1px solid #d5d5d5;
+    border-radius: 2px;
+    padding: 0 15px;
+    width: 406px;
+    height: 48px;
+    line-height: 48px;
+    color: #999;
+    font-size: 14px;
+    font-family: 'Microsoft YaHei';
+}
+.reg-l .error {
+    width: auto;
+    height: 34px;
+    line-height: 24px;
+    color: #e23703;
+}
+.reg-l .regLcon .input input.codeVal {
+    float: left;
+    padding: 0 15px;
+    width: 259px;
+    height: 48px;
+    line-height: 48px;
+    color: #999;
+    font-size: 14px;
+    font-family: 'Microsoft YaHei';
+    border: 1px solid #ddd;
+    border-radius: 2px 0 0 2px;
+}
+.mt {
+    margin-top: 40px;
+}
+.reg-l .regLcon .input .codeSendBtn {
+    float: left;
+    width: 146px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #888;
+    cursor: pointer;
+    background: #f7f7f7;
+    border: 1px solid #ddd;
+    border-left: 0;
+    border-radius: 0 2px 2px 0;
+}
+
+.reg-l .regLcon .input input.Sex {
+    float: left;
+    width: 14px;
+    height: 14px;
+    border: 0;
+}
+.reg-l .regLcon .input label {
+    float: left;
+    margin-right: 10px;
+    padding-left: 5px;
+    display: inline-block;
+    width: auto;
+    height: 14px;
+    line-height: 14px;
+}
+.reg-l .regLcon .input a {
+    float: left;
+    display: inline-block;
+    line-height: 14px;
+}
+.reg-l .regLcon .btn {
+    padding-top: 30px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    cursor: pointer;
+}
+.reg-l .regLcon .btn input.submit {
+    width: 270px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Microsoft YaHei';
+    background: #e23703;
+    border-radius: 2px;
+}
+.reg-l .regLcon .link {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.reg-l .regLcon .link a {
+    color: #e23703;
+}
+
+
+.regist .reg-r {
+    float: left;
+    margin-left: -1px;
+    padding-left: 50px;
+    width: 211px;
+    height: 240px;
+    border-left: 1px solid #e5e5e5;
+}
+.reg-r a {
+    float: left;
+    margin-bottom: 10px;
+    padding-left: 74px;
+    display: inline-block;
+    width: 135px;
+    height: 48px;
+    line-height: 48px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    background: url("../images/dlfs.png") no-repeat;
+}
+.reg-r a.qq {
+    background-position: 35px -48px;
+}
+.reg-r a.weibo {
+    background-position: 35px 0;
+}
+.reg-r a.weixin {
+    background-position: 35px -96px;
+}
+
+
+
+
+
+

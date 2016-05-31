@@ -1,0 +1,288 @@
+.topBg {
+    margin-top: 59px;
+    min-width: 913px;
+    height: 1306px;
+    background: url("../images/CODBG.jpg") no-repeat top center;
+    position: relative;
+}
+.center {
+    width: 913px;
+    height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: left;
+}
+.center_top {
+    width: 100%;
+    height: 351px;
+}
+.center_sec {
+    width: 100%;
+    height: 133px;
+    overflow: hidden;
+}
+.center_sec_con {
+    width: 802px;
+    height: auto;
+    line-height: 18px;
+    color: #000;
+    text-indent: 25px;
+    text-align: justify;
+    margin-top: 25px;
+    margin-left: 70px;
+}
+.center_sec_con1 {
+    width: 850px;
+    text-align: right;
+    margin-top: 3px;
+}
+.center_sec_con1 a {
+    color: #000;
+}
+.center_sec_con1 a:hover {
+    color: orange;
+}
+
+.center_three {
+    width: 100%;
+    height: auto;
+}
+.center_three_title {
+    width: 100%;
+    height: 25px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.title_con {
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    color: #FFF;
+    margin-left: 50px;
+    display: inline;
+    font-size: 18px;
+    font-weight: bold;
+}
+.title_con1 {
+    float: right;
+    height: 25px;
+    line-height: 25px;
+    margin-right: 20px;
+}
+.title_con1 a {
+    color: #000;
+}
+.center_three_con {
+    width: 290px;
+    height: 174px;
+    float: left;
+    margin-left: 18px;
+    margin-top: 22px;
+    display: inline;
+    overflow: hidden;
+}
+.con1 {
+    margin-left: 6px;
+}
+.con2 {
+    margin-left: 4px;
+}
+.con3 {
+    margin-left: 18px;
+    margin-top: 14px;
+}
+.con4 {
+    margin-left: 300px;
+    margin-top: 14px;
+}
+.con5 {
+    margin-left: 6px;
+    margin-top: 14px;
+}
+.center_three_con_left {
+    float: left;
+    width: 96px;
+    height: 174px;
+}
+.center_three_con_left_img {
+    width: 96px;
+    height: 134px;
+    overflow: hidden;
+    border: 1px solid #333;
+}
+.center_three_con_left_img1 {
+    width: 84px;
+    height: 25px;
+    margin: 5px auto 0 auto;
+}
+.center_three_con_right {
+    float: right;
+    width: 190px;
+    height: 174px;
+}
+.center_three_con_right_con {
+    width: 185px;
+    height: 32px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+.center_three_con_right_con .con {
+    margin-top: -2px;
+    font-weight: bold;
+    text-indent: 10px;
+    font-size: 12px;
+    color: #000;
+}
+.center_three_con_right_con .con a{
+    color: #000;
+}
+.center_three_con_right_con1 {
+    width: 100%;
+    height: 130px;
+}
+.center_three_con_right_con1_title {
+    width: 100%;
+    height: 18px;
+    color: #000;
+    text-align: left;
+    font-size: 15px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+.center_three_con_right_con1_con {
+    width: 172px;
+    height: auto;
+    margin-left: 5px;
+    margin-top: 8px;
+    text-indent: 15px;
+    color: #000;
+    line-height: 15px;
+    text-align: justify;
+}
+
+
+/*游戏介绍结束~~~~~~~~~~~~~*/
+
+
+
+
+
+
+
+
+/*人物介绍开始~~~~~~~~~~~~~*/
+.game_RWT {
+    height: 72px;
+    width: 913px;
+    margin: 0 auto;
+}
+.RW_left {
+    height: 100%;
+    width: 176px;
+    background: url(../images/left_rw.jpg);
+    float: left;
+}
+.RW_center {
+    height: 100%;
+    width: 220px;
+    background: url(../images/center_rw.jpg);
+    float: left;
+}
+.RW_right {
+    height: 100%;
+    width: 517px;
+    background: url(../images/right_rw.jpg);
+    float: left;
+}
+.game_RW {
+    background: url(../images/rw.gif) no-repeat scroll center top;
+    height: 1095px;
+    width: 913px;
+    margin: 0 auto;
+}
+.game_RW .rw_title {
+    height: 44px;
+    width: 858px;
+    margin: 0 auto;
+    color: #444444;
+}
+.game_RW .rw_left {
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 44px;
+}
+.game_RW .rw_more {
+    float: right;
+    line-height: 44px;
+}
+.game_RW .rw_info {
+    height: 209px;
+    width: 849px;
+    margin: 0 auto;
+}
+.rw_info .rw_info_jt {
+    height: 209px;
+    width: 268px;
+    border: 1px #D4D3D3 solid;
+    float: left;
+    margin-right: 18px;
+}
+
+.rw_info .rw_info_jt1 {
+    height: 209px;
+    width: 268px;
+    border: 1px #D4D3D3 solid;
+    float: left;
+    margin-right: 0px;
+}
+.rw_info .rw_info_jt_left {
+    float: left;
+    width: 115px;
+    height: 100%;
+    text-align: center;
+    padding-top: 1px;
+}
+.rw_info .jt_info {
+    width: 145px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: left;
+    float: right;
+}
+.jt_info div {
+    padding-top: 5px;
+    font: 400 12px/12px "Arial", "\5fae\8f6f\96c5\9ed1";
+}
+.jt_info .info_content {
+    padding-top: 5px;
+    text-indent: 0.6cm;
+    line-height: 18px;
+}
+.game_RW .sxx {
+    padding-top: 15px;
+    height: 6px;
+    margin: 0 auto;
+    width: 850px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

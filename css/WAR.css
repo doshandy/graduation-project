@@ -1,0 +1,376 @@
+.center {
+    width: 950px;
+    margin-top: 60px;
+    padding-bottom: 70px;
+    box-shadow:  0px 5px 16px 5px #3c3c3c;
+    background-color: #29425C;
+}
+
+.top {
+    width: 950px;
+    position: relative;
+}
+.top img {
+    width: 950px;
+    height: 250px;
+}
+.top .areatit {
+    position: absolute;
+    bottom: 26px;
+    left: 328px;
+    font: 700 28px/32px "Arial", \5fae\8f6f\96c5\9ed1;
+    color: #FCD549;
+    text-shadow: #333 2px 2px 2px ;
+}
+
+/*游戏信息开始~~~~~~~~~~~~~*/
+.infor {
+    width: 302px;
+    height: auto;
+    text-align: left;
+    padding: 0 1px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px 12px;
+}
+.infor .infor-tit {
+    width: 302px;
+    height: 22px;
+    background: url("../images/yxxxbod.gif") no-repeat;
+    text-shadow: 1px 1px 0 #000;
+}
+.infor-tit span ,
+.gamelist-tit span{
+    float: left;
+    margin-left: 13px;
+    width: auto;
+    height: 22px;
+    line-height: 22px;
+    text-align: left;
+    color: #fff;
+}
+.infor-con {
+    padding-bottom: 7px;
+    width: 302px;
+    height: auto;
+    background-color: #222;
+}
+.infor-con-t {
+    padding-top: 10px;
+    width: 300px;
+    height: auto;
+    background-color: #1c1c1c;
+}
+.infor-con-t .infor-top-l {
+    float: left;
+    width: 130px;
+    height: auto;
+    text-align: center;
+}
+.infor-top-l img {
+    width: 110px;
+    border: 1px solid #000;
+}
+
+
+.infor-top-r {
+    float: left;
+    width: 160px;
+    height: auto;
+    text-align: left;
+    font-family: '宋体';
+    font-size: 9pt;
+    color: #d0d0d0;
+    line-height: 15pt;
+}
+ul.YXXX {
+    width: 160px;
+    height: auto;
+}
+ul.YXXX li {
+    width: 160px;
+}
+ul.YXXX li div {
+    float: left;
+    height: auto;
+    line-height: 20px;
+}
+ul.YXXX li div.u1 {
+    width: 60px;
+    line-height: 20px;
+}
+ul.YXXX li div.u2 {
+    width: 100px;
+    line-height: 20px;
+}
+ul.YXXX li.li2 {
+    height: 20px;
+}
+ul.YXXX li.li1 {
+    height: auto;
+}
+.infor-top-b {
+    padding-top: 10px;
+    width: 300px;
+    height: 22px;
+    text-align: center;
+    background: url("../images/xxbg.gif") 0 bottom no-repeat;
+}
+.infor-top-b a {
+    padding: 0 13px 0 2px;
+    display: inline-block;
+    width: auto;
+    height: 22px;
+    color: #666;
+    background: url("../images/uonbg.png") no-repeat right 0;
+}
+.infor-top-b a:hover {
+    color: #fff;
+    background-position-y: -22px;
+}
+
+.infor-con .TP {
+    padding: 18px 0 0 29px;
+    width: 273px;
+    height: 100px;
+}
+.TP .ZS {
+    float: left;
+    width: 245px;
+    height: 77px;
+    background: url("../images/pfbg.gif") no-repeat 0 -77px;
+}
+.ZS .ZS_l {
+    float: left;
+    width: 77px;
+    height: 77px;
+}
+.ZS_l .ZSl_tit {
+    width: 77px;
+    height: 26px;
+    text-align: center;
+    color: #ddd;
+    font: 400 14px/26px 'Microsoft YaHei';
+    text-shadow: 1px 1px 0 #0c0d0e;
+}
+.ZS_l .ZSl_num {
+    width: 77px;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    font: 700 36px/50px 'Arial';
+    text-shadow: 1px 1px 0 #12577a;
+}
+.ZS .ZS_r {
+    float: right;
+    width: 162px;
+    height: 77px;
+}
+.ZS .ZSr_t {
+    margin: 0 auto;
+    padding-top: 6px;
+    width: 150px;
+    height: 23px;
+}
+.ZS .ZSr_t div {
+    padding: 0 3px;
+    width: auto;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #0d63b3;
+    background: #151719;
+    border-radius: 3px;
+}
+.ZS .ZSr_t div span {
+    color: #d87a01;
+}
+.ZS .ZSr_m {
+    margin: 0 auto;
+    width: 148px;
+    height: 10px;
+    background: url("../images/Slids.gif") no-repeat -68px 0;
+}
+.ZS .ZSr_b {
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 150px;
+    height: 28px;
+}
+.ZS .ZSr_b a.bud {
+    display: inline-block;
+    width: 64px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    text-shadow: 1px 1px 0 #1b1d1f;
+    background: url("../images/bud.gif") no-repeat;
+}
+.ZS .ZSr_b a.b1 {
+    float: left;
+    color: #ffa200;
+}
+.ZS .ZSr_b a.b2 {
+    float: right;
+    color: #1d91d1;
+}
+.infor-con-b {
+    padding: 10px;
+    width: 280px;
+    height: auto;
+    text-align: left;
+}
+
+.infor-con-b .introBox {
+    width: 280px;
+    height: auto;
+    max-height: 110px;
+    color: #d0d0d0;
+}
+.infor-con-b a {
+    float: right;
+    display: inline-block;
+    width: auto;
+    height: 14px;
+    line-height: 14px;
+    color: #666;
+}
+
+.gamelist {
+    margin-top: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.gamelist .gamelist-tit {
+    width: 610px;
+    height: 22px;
+    text-shadow: 1px 1px 0 #000;
+    background: url("../images/gamelistbod.gif") no-repeat;
+}
+.gamelist .gamelist-con {
+    padding-bottom: 7px;
+    width: 610px;
+    height: auto;
+    background-color: #222;
+}
+.gamelist-con-c {
+    margin-top: 22px;
+    font: 400 15px/25px "simsun";
+    color: whitesmoke;
+    text-indent: 2em;
+}
+.gamelist-con-c a {
+    font-style: italic;
+    font-size: 13px;
+    color: #006699;
+}
+
+
+.bottom-logo {
+    width: 268px;
+    height: 88px;
+    margin-left: 30px;
+    background: url("../images/bottom.png") no-repeat;
+}
+
+.bottom .view {
+    width: 560px;
+    height: 300px;
+    margin: 15px auto;
+    border: 1px solid #CCC;
+    position: relative;
+    background-color: #fff;
+}
+.view ul li {
+    width: 112px;
+    height: 300px;
+    float: left;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 1s;
+}
+.view ul li span {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 300px;
+    font-size: 28px;
+}
+.view ul li span:nth-child(1) {
+    transform: translateZ(150px);
+    background: url("../images/WARb1.jpg") no-repeat;
+}
+
+.view ul li span:nth-child(2) {
+    transform: rotateX(90deg) translateZ(150px);
+    background: url("../images/WARb2.jpg") no-repeat;
+}
+
+.view ul li span:nth-child(3) {
+    transform: rotateX(180deg) translateZ(150px);
+    background: url("../images/WARb3.jpg") no-repeat;
+}
+
+.view ul li span:nth-child(4) {
+    transform: rotateX(270deg) translateZ(150px);
+    background: url("../images/WARb4.jpg") no-repeat;
+
+}
+
+.view ul li:nth-child(2) span {
+    background-position: -112px 0;
+}
+
+.view ul li:nth-child(3) span {
+    background-position: -224px 0;
+}
+
+.view ul li:nth-child(4) span {
+    background-position: -336px 0;
+}
+
+.view ul li:nth-child(5) span {
+    background-position: -448px 0;
+}
+/*按钮*/
+.view .arrBox {
+    position: relative;
+    height: 60px;
+    top: 50%;
+    margin-top: -30px;
+    display: none;
+}
+.view .prev, .view .next {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 40px;
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+}
+
+.view .next {
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

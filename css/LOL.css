@@ -1,0 +1,470 @@
+body {
+    background: url("../images/LOLbdbg.png") repeat;
+}
+.bg {
+    margin-top: 60px;
+    width: 100%;
+    position: relative;
+    background: url("../images/LOLbg.jpg") top center no-repeat;
+}
+.bg .center {
+    width: 1000px;
+    margin: 0 auto;
+}
+.center .hd {
+    height: 68px;
+    padding-top: 215px;
+    background: url("../images/hd.jpg") no-repeat;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.hd-tit img{
+    width: 171px;
+    height: 119px;
+    position: absolute;
+    top: 45px;
+    left: 0;
+}
+.hd-tit .word-logo {
+    font: 700 35px/35px "Arial", \5fae\8f6f\96c5\9ed1;
+    position: absolute;
+    top: 90px;
+    left: 173px;
+    background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#325DA0), to(#333));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.menu {
+    padding-left: 18px;
+    width: 982px;
+    height: 68px;
+}
+.menu li {
+    height: 68px;
+    float: left;
+    text-align: center;
+}
+
+.menu li a {
+    font-family: "microsoft yahei";
+    font-weight: bold;
+    height: 68px;
+    float: left;
+    color: rgb(223, 246, 255);
+    font-size: 18px;
+    text-align: center;
+    line-height: 68px;
+    text-decoration: none;
+}
+
+.menu .menu01 a {
+    width: 106px;
+}
+.menu .menu02 a {
+    width: 96px;
+}
+.menu .menu03 a {
+    width: 101px;
+}
+.menu .menu04 a {
+    width: 115px;
+}
+.menu .menu05 a {
+    width: 103px;
+}
+.menu .menu06 a {
+    width: 136px;
+}
+.menu .menu07 a {
+    width: 137px;
+}
+.menu li a:hover,
+.menu li .current {
+    color: #ffde00;
+}
+
+/*ÎÞ·ìÂÖ²¥Í¼¿ªÊ¼~~~~~~~~~~~*/
+.banner {
+    width: 622px;
+    height: 321px;
+    border: 1px solid #000;
+    margin-top: 10px;
+    overflow: hidden;
+    float: left;
+    position: relative;
+}
+.banner ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3000px;
+}
+.banner li {
+    width: 622px;
+    height: 321px;
+    overflow: hidden;
+    float: left;
+    position: relative;
+}
+.banner li img {
+    width: 622px;
+    height: 321px;
+}
+.banner ol {
+    position: absolute;
+    right: 10px;
+    bottom: 25px;
+    text-align: center;
+}
+
+.banner ol li {
+    float: left;
+    width: 74px;
+    height: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.banner ol li img {
+    width: 74px;
+    height: 50px;
+}
+.banner ol li.current {
+    border: 1px solid orange;
+    box-sizing: border-box;
+}
+.banner .word-des {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.word-des .des-tit {
+    display: block;
+    font-size: 14px;
+    color: #addbef;
+    line-height: 25px;
+    margin-top: 10px;
+    text-indent: 2em;
+    height: 25px;
+    font-weight: bold;
+}
+.word-des .des-con {
+    width: 300px;
+    margin-left: 2em;
+    color: #5f8699;
+    text-indent: 2em;
+}
+
+
+.center-right {
+    float: right;
+}
+.center-right .top-news {
+    width: 361px;
+    height: 156px;
+    margin-top: 10px;
+    background: url("../images/top-news.jpg") no-repeat;
+}
+.top-news-con {
+    width: 310px;
+    height: 120px;
+    padding: 0 15px 10px 15px;
+}
+.top-news .newstit a {
+    font-size: 14px;
+    font-weight: bold;
+    color: #addbef;
+}
+.top-news .newstit {
+    margin-top: 20px;
+    padding-bottom: 6px;
+    text-indent: 2em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.top-news .newstit a:hover {
+    color: orange;
+}
+.newsimg {
+    float: left;
+    width: 100px;
+    border: 1px solid transparent;
+}
+.newsimg:hover {
+    border-color: orange;
+}
+.newscontent {
+    float: right;
+    width: 195px;
+    height: 80px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #5f8699;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.center-main {
+    margin-top: 10px;
+    padding-top: 23px;
+    background: url("../images/ny_bg.jpg") no-repeat 0px 0;
+}
+.main-area {
+    background: url("../images/ny_bg.jpg") repeat-y -1000px 0;
+}
+.main-area .area-left {
+    width: 600px;
+    padding: 0px 20px 20px 20px;
+    overflow: hidden;
+}
+.area-left .index-tabs {
+    border-bottom: 2px solid #364669;
+    padding-top: 10px;
+}
+.index-tabs li {
+    float: left;
+    margin-right: 35px;
+    font-size: 16px;
+}
+.index-tabs li a {
+    float: left;
+    padding-bottom: 12px;
+    color: #dff6ff;
+    font-family: "Arial", \5fae\8f6f\96c5\9ed1;
+}
+.index-tabs li.current a{
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+
+.index-content {
+    margin-top: 20px;
+}
+.index-content li{
+    display: none;
+}
+.index-content li.current {
+    display: block;
+}
+.index-content li .part {
+    border-bottom: 1px dashed #253c63;
+    overflow: hidden;
+    padding: 10px 5px;
+    width: 590px;
+    height: 148px;
+}
+.part .partpic {
+    display: inline-block;
+    width: 188px;
+    height: 140px;
+    float: left;
+    overflow: hidden;
+    border: 1px solid #000;
+}
+.part .partpic img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+}
+.part .partcon {
+    display: block;
+    float: right;
+    width: 380px;
+    color: rgb(152, 193, 215);
+    font-size: 12px;
+    font-family: "simsun";
+    line-height: 20px;
+    overflow: hidden;
+}
+.partcon h2 {
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 6px;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.partcon h2 a {
+    color: #c5edff;
+}
+.partcon .text {
+    height: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.partcon .info {
+    font-size: 12px;
+    padding-top: 24px;
+}
+.info .tips {
+    display: block;
+    height: 26px;
+    width: 76px;
+    line-height: 26px;
+    cursor: pointer;
+    font-size: 12px;
+    color: #4c6977;
+    font-weight: normal;
+    padding-left: 20px;
+    background: url("../images/tips_talk.jpg") no-repeat;
+}
+.info .tip-zf {
+    background-position: 0 -104px;
+    text-indent: 24px;
+    margin-right: 15px;
+}
+.info .tip-zf:hover {
+    background-position: 0 -130px;
+}
+.info .tip-good {
+    background-position: 0 -52px;
+    text-indent: 11px;
+    margin-right: 5px;
+}
+.info .tip-good:hover {
+    background-position: 0 -78px;
+}
+.info .tipicon {
+    display: inline-block;
+    font-size: 12px;
+    color: #4c6977;
+    font-weight: normal;
+    background: url("../images/tips.png") no-repeat center;
+    height: 17px;
+    line-height: 17px;
+    padding-left: 20px;
+    margin-right: 10px;
+}
+.info .tipicon1 {
+    background-position: -2px -2px;
+    width: 35px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.info .tipicon2 {
+    background-position: -2px -40px;
+}
+
+
+
+
+
+.main-area .area-right {
+    width: 318px;
+    padding: 0 20px 20px 20px;
+}
+
+.area-right .right-tit {
+    border-bottom: 2px solid #263356;
+    position: relative;
+    height: 33px;
+    line-height: 32px;
+    font-size: 16px;
+    color: #dff6ff;
+    font-weight: bold;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.area-right .mt {
+    margin-top: 20px;
+}
+.right-tit .right-icon {
+    display: inline-block;
+    background: url("../images/LOLnews-bg.gif") no-repeat;
+    height: 33px;
+    line-height: 33px;
+    position: relative;
+    padding-left: 38px;
+}
+.right-tit .icon-game {
+    background-position: 0 -198px;
+}
+.right-tit .icon-pic {
+    background-position: 0 -66px;
+}
+.area-right .piclist {
+    overflow: hidden;
+    margin-right: -15px;
+    width: 333px;
+}
+.area-right .piclist li {
+    float: left;
+    margin: 10px 15px 0 0;
+    overflow: hidden;
+    width: 150px;
+}
+.piclist li a {
+    color: #81a5b7;
+}
+.piclist li a:hover{
+    color: orange;
+}
+.piclist li a img {
+    height: 110px;
+    width: 148px;
+    border: 1px solid transparent;
+}
+.piclist li a img:hover{
+    border-color: orange;
+}
+.area-right .game-message {
+    color: #658397;
+    padding-top: 5px;
+    font-size: 12px;
+}
+.game-message li {
+    line-height: 24px;
+}
+.game-message .dot {
+    font-size: 24px;
+    padding: 0 5px;
+    color: #435663;
+    vertical-align: top;
+}
+.game-message .dark {
+    color: #435663;
+}
+.game-message li a {
+    color: #81a5b7;
+}
+.game-message li a:hover {
+    color: orange;
+}
+
+
+
+
+.center-footer {
+    height: 45px;
+    background: url("../images/ny_bg.jpg") no-repeat -2000px bottom;
+}
+
+
+.footer-bg {
+    background: url("../images/footer_bg.jpg") center no-repeat;
+    width: 100%;
+    height: 574px;
+    position: absolute;
+    left: 0;
+    bottom: -110px;
+    z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
