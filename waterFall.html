@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>jQuery Plugin</title>
+	<title>图片赏析</title>
 	<style>
 		body {
 			margin: 0;
@@ -65,15 +65,28 @@
 				type: 'post',
 				data: {page: page},
 				beforeSend: function () {
+					// Loading状态
 					$('p.tips').text('正在加载...')
 					.addClass('loading');
 				},
 				success: function (info) {
 					console.log(info);
+
+					// 调用模板引擎
 					var html = template('tpl', info);
+
+					// console.log(html);
+
+					// 追加DOM中
 					$('.items').append(html)
+					// 瀑布流
 					.waterFall();
+
+					// $('.items').waterFall();
+
+					// 缓存页码
 					$('p.tips').attr('data-page', info.page);
+
 				},
 				complete: function () {
 					$('p.tips').text('继续加载')
@@ -81,24 +94,41 @@
 				}
 			});
 		}
+
+		// 取出第一页
 		getData(1);
+
+		// 点击加载更多
 		$('p.tips').on('click', function () {
+			// 获取页码
 			var page = $(this).attr('data-page');
+
+			// 禁止重复提交
 			if($(this).hasClass('loading')) return;
+
+			// 获取数据
 			getData(page);
 		});
+
+
+		// 滚动加载
 		$(window).on('scroll', function () {
 			var offsetTop = $('.items').offset().top;
 			var height = $('.items').height();
 			var scrollTop = $(this).scrollTop();
 			var winHeight = $(this).height();
+
 			var offset = offsetTop + height - scrollTop - winHeight;
+
 			if(offset <= 200 && !$('p.tips').is('.loading')) {
 				var page = $('p.tips').attr('data-page');
 				getData(page);
 			}
+
 		});
 	</script>
+	<!-- 模板 -->
+	<!-- 抽离了模板 -->
 	<script type="text/template" id="tpl">
 		<% for(var i=0; i < items.length; i++) { %>
 		<div class="item">

@@ -30,8 +30,3 @@ $(".regLnav > a:eq(1)").on("click", function () {
 
 
 
-
-
-
-
-
